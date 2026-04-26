@@ -1,12 +1,25 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { JdInput } from "@/components/JdInput";
 import { WeightSliders } from "@/components/WeightSliders";
 import { ResultsTable } from "@/components/ResultsTable";
 import { CandidateDetailPanel } from "@/components/CandidateDetailPanel";
 import { toast } from "sonner";
 import type { ScoutResponse, Weights, RankedRow } from "@/lib/types";
+
+const LOADING_STAGES = [
+  "Parsing job description...",
+  "Embedding JD and retrieving top 20 candidates...",
+  "Scoring 20 candidates in parallel (Gemini 2.5)...",
+  "Simulating outreach conversations for top 10...",
+  "Scoring candidate interest from transcripts...",
+  "Combining match + interest into final ranking...",
+  "Almost there — Vertex AI is finishing up...",
+  "Cold start in progress, hang on (first run can take a few minutes)...",
+  "Still processing — large pipelines sometimes take longer...",
+  "Backend is working, response is on the way...",
+];
 
 function rerank(resp: ScoutResponse, w: Weights): RankedRow[] {
   return [...resp.ranked]
@@ -23,6 +36,16 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [weights, setWeights] = useState<Weights>({ match: 0.6, interest: 0.4 });
   const [openCid, setOpenCid] = useState<string | null>(null);
+  const [stageIdx, setStageIdx] = useState(0);
+
+  useEffect(() => {
+    if (!loading) return;
+    setStageIdx(0);
+    const timer = setInterval(() => {
+      setStageIdx((i) => Math.min(i + 1, LOADING_STAGES.length - 1));
+    }, 18_000); // advance message every ~18s
+    return () => clearInterval(timer);
+  }, [loading]);
 
   const ranked = useMemo(() => (resp ? rerank(resp, weights) : []), [resp, weights]);
 
@@ -36,7 +59,7 @@ export default function Home() {
     setOpenCid(null);
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 300_000); // 5 min timeout
+      const timeoutId = setTimeout(() => controller.abort(), 600_000); // 10 min timeout — matches Cloud Run max
       const r = await fetch(`${backendUrl}/scout`, {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -56,7 +79,7 @@ export default function Home() {
       toast.success(`Found ${data.ranked.length} candidates`);
     } catch (e: unknown) {
       if (e instanceof DOMException && e.name === "AbortError") {
-        toast.error("Request timed out (5 min). The backend may still be processing — try again shortly.");
+        toast.error("Request timed out (10 min). The backend may still be processing — try the same JD again, it will be cached.");
       } else {
         toast.error((e instanceof Error ? e.message : null) ?? "Scout failed");
       }
@@ -90,7 +113,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-screen-2xl px-6 py-6">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
             <div className="lg:col-span-3">
-              <JdInput onSubmit={handleScout} loading={loading} />
+              <JdInput onSubmit={handleScout} loading={loading} loadingMessage={LOADING_STAGES[stageIdx]} />
             </div>
             <div>
               <WeightSliders weights={weights} onChange={setWeights} />

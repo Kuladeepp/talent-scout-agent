@@ -10,9 +10,10 @@ import { FileText, Link as LinkIcon, Loader2 } from "lucide-react";
 type Props = {
   onSubmit: (input: { jd_text?: string; jd_url?: string }) => void;
   loading: boolean;
+  loadingMessage?: string;
 };
 
-export function JdInput({ onSubmit, loading }: Props) {
+export function JdInput({ onSubmit, loading, loadingMessage }: Props) {
   const [mode, setMode] = useState<"text" | "url">("text");
   const [text, setText] = useState("");
   const [url, setUrl] = useState("");
@@ -64,7 +65,7 @@ export function JdInput({ onSubmit, loading }: Props) {
       {loading ? (
         <Button disabled className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-medium disabled:opacity-50">
           <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-          Running pipeline... ~30s on warm backend
+          {loadingMessage ?? "Running pipeline..."}
         </Button>
       ) : (
         <Button onClick={submit} className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-medium hover:opacity-90">
