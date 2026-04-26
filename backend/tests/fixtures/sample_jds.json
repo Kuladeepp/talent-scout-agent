@@ -1,0 +1,14 @@
+[
+  {
+    "name": "backend_engineer",
+    "text": "Senior Backend Engineer at a fintech startup. 5+ years of Python, deep Django experience, comfortable with PostgreSQL and Redis. AWS or GCP required. Bonus: event-driven architectures, Kafka. Bengaluru hybrid (3 days in office)."
+  },
+  {
+    "name": "ml_engineer",
+    "text": "ML Engineer working on LLM applications. Strong Python, hands-on with PyTorch, experience fine-tuning models, RAG pipelines, vector databases. 3-7 years. Remote India or San Francisco."
+  },
+  {
+    "name": "product_designer",
+    "text": "Senior Product Designer for B2B SaaS. Figma expert, design systems, user research chops. 4+ years. Has shipped customer-facing dashboards. Hybrid in Bengaluru or fully remote in EU."
+  }
+]
