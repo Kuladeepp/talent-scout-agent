@@ -30,3 +30,6 @@ Thumbs.db
 # Secrets
 *.pem
 service-account*.json
+
+# IDE / Claude Code session state
+.claude/

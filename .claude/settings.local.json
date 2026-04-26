@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Test-Path \"d:\\\\Projects\\\\Deccan AI Hackathon\\\\backend\\\\.env\"; Get-Content \"d:\\\\Projects\\\\Deccan AI Hackathon\\\\backend\\\\.env\" | Select-String -Pattern \"^ANTHROPIC_API_KEY=\" | ForEach-Object { \"ANTHROPIC_API_KEY line found, length: \" + $_.Line.Length })",
-      "PowerShell(Test-Path \"d:\\\\Projects\\\\Deccan AI Hackathon\\\\backend\\\\service-account.json\"; \\(Get-Content \"d:\\\\Projects\\\\Deccan AI Hackathon\\\\backend\\\\service-account.json\" -Raw | ConvertFrom-Json\\) | Select-Object project_id, client_email, type)"
-    ]
-  }
-}
