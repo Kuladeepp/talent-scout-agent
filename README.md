@@ -20,6 +20,57 @@ The pipeline runs five stages:
 4. **Simulated Outreach** — for the top 10, the agent runs a 4-turn recruiter↔candidate conversation. The candidate is roleplayed by Gemini 2.5 Flash with a hidden interest profile (`actively_looking | passive | not_looking`). All 10 conversations run in parallel; total wall-clock ≈ 15-60s (cached: <5s).
 5. **Combined Ranking** — `final_score = w_match * match_score + w_interest * interest_score`. Defaults 0.6 / 0.4, retunable live via UI sliders.
 
+## Architecture diagram
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        FRONTEND  (Next.js / Vercel)                    │
+│  ┌──────────┐  ┌──────────────┐  ┌──────────────┐  ┌───────────────┐  │
+│  │ JD Input │→ │ Results Table │→ │ Detail Panel │→ │ Weight Slider │  │
+│  │ text/URL │  │  ranked list  │  │ match + chat │  │  live rerank  │  │
+│  └──────────┘  └──────────────┘  └──────────────┘  └───────────────┘  │
+└───────┬─────────────────────────────────────────────────────┬──────────┘
+        │  POST /scout                                        │ POST /explain
+        ▼                                                     ▼
+┌─────────────────────────── BACKEND (FastAPI / Cloud Run) ──────────────┐
+│                                                                        │
+│  Stage 1: JD Ingestion                                                 │
+│  ┌─────────────┐    ┌───────────────────┐                              │
+│  │  Firecrawl   │──→│  Gemini 2.5 Flash  │──→ JDStruct (JSON)          │
+│  │  (URL scrape)│    │  (parse to schema) │                             │
+│  └─────────────┘    └───────────────────┘                              │
+│                              │                                         │
+│  Stage 2: Candidate Discovery│                                         │
+│  ┌───────────────────┐       ▼                                         │
+│  │ text-embedding-005 │  cosine similarity over 200-candidate pool     │
+│  │ (embed JD)         │──→ top 20 retrieved                            │
+│  └───────────────────┘                                                 │
+│                              │                                         │
+│  Stage 3: Match Scoring      ▼         ×20 parallel                    │
+│  ┌───────────────────┐                                                 │
+│  │  Gemini 2.5 Pro    │──→ score 0-100 + reasoning + skills            │
+│  │  (with rubric)     │                                                │
+│  └───────────────────┘                                                 │
+│                              │                                         │
+│  Stage 4: Outreach Sim       ▼         ×10 parallel (top 10)           │
+│  ┌───────────────────┐  ┌───────────────────┐                          │
+│  │  Gemini 2.5 Flash  │⇄│  Gemini 2.5 Flash  │  4-turn conversation   │
+│  │  (recruiter agent) │  │ (candidate agent)  │  + interest scoring    │
+│  └───────────────────┘  └───────────────────┘                          │
+│                              │                                         │
+│  Stage 5: Ranking            ▼                                         │
+│  ┌──────────────────────────────────────────┐                          │
+│  │  final = w_match × match + w_interest × interest                    │
+│  │  weights tunable from frontend (default 0.6/0.4)                    │
+│  └──────────────────────────────────────────┘                          │
+│                                                                        │
+│  ┌─────────┐  ┌─────────┐  ┌──────────┐                               │
+│  │ SQLite  │  │  .npy   │  │ JSON     │   ← persistent storage        │
+│  │(profiles)│  │(vectors)│  │(cache)   │                               │
+│  └─────────┘  └─────────┘  └──────────┘                               │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Scoring details
 
 - **Match Score (0-100):** explicit prompt anchors — 90+ exceptional, 70-89 strong, 50-69 plausible-with-gaps, <50 misalignment. Reasoning cites concrete skill matches and gaps.
