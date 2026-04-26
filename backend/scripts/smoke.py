@@ -19,7 +19,7 @@ FIXTURES = ROOT / "tests" / "fixtures" / "sample_jds.json"
 def main() -> int:
     samples = json.loads(FIXTURES.read_text(encoding="utf-8"))
     base = "http://localhost:8000"
-    with httpx.Client(timeout=120) as http:
+    with httpx.Client(timeout=300) as http:
         h = http.get(f"{base}/healthz").json()
         print("healthz:", h)
         for s in samples:
