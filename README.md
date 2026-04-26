@@ -4,7 +4,7 @@ Hackathon submission — **Catalyst, April 2026**.
 
 **Live demo:** <https://frontend-beta-ten-81.vercel.app>
 **Backend:** <https://scout-backend-agah7k3aja-uc.a.run.app/docs>
-**Demo video:** `<YOUTUBE_OR_LOOM_LINK>` *(record using demo script below)*
+**Demo video:** <https://www.loom.com/share/5a628c6c5ccf4d118203e1b13622d274>
 
 ## Problem
 
