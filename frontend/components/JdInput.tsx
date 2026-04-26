@@ -71,14 +71,6 @@ export function JdInput({ onSubmit, loading }: Props) {
           Find & engage candidates
         </Button>
       )}
-
-      {loading && (
-        <div className="space-y-2 mt-4">
-          {[0, 1, 2].map((i) => (
-            <div key={i} className="h-12 bg-white rounded-lg animate-pulse border border-slate-100 shadow-sm" />
-          ))}
-        </div>
-      )}
     </Card>
   );
 }
