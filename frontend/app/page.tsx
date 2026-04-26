@@ -35,11 +35,15 @@ export default function Home() {
     setLoading(true);
     setOpenCid(null);
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 180_000); // 3 min timeout
       const r = await fetch(`${backendUrl}/scout`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ ...input, weights }),
+        signal: controller.signal,
       });
+      clearTimeout(timeoutId);
       if (!r.ok) {
         throw new Error(`Backend returned ${r.status} ${r.statusText}`);
       }
@@ -51,7 +55,11 @@ export default function Home() {
       setResp(data);
       toast.success(`Found ${data.ranked.length} candidates`);
     } catch (e: unknown) {
-      toast.error((e instanceof Error ? e.message : null) ?? "Scout failed");
+      if (e instanceof DOMException && e.name === "AbortError") {
+        toast.error("Request timed out (3 min). The backend may still be processing — try again in ~30s.");
+      } else {
+        toast.error((e instanceof Error ? e.message : null) ?? "Scout failed");
+      }
     } finally {
       setLoading(false);
     }
