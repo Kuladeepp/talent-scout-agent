@@ -58,11 +58,10 @@ async def score_one(jd: JDStruct, candidate: Candidate) -> MatchResult:
 
     try:
         raw = await generate_json(
-            model=settings.model_pro,
+            model=settings.model_flash,
             prompt=_prompt(jd, candidate),
             schema=MATCH_SCHEMA,
             system=MATCH_SYSTEM,
-            thinking_level="MEDIUM",
             temperature=0.3,
         )
         result = MatchResult(candidate_id=candidate.id, **raw)

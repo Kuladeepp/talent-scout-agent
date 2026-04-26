@@ -17,8 +17,8 @@ class Settings(BaseSettings):
     anthropic_api_key: str | None = None
     firecrawl_api_key: str | None = None
 
-    top_k_retrieve: int = 20
-    top_k_outreach: int = 10
+    top_k_retrieve: int = 10
+    top_k_outreach: int = 5
     similarity_floor: float = 0.30
     cache_dir: str = "./data/cache"
 

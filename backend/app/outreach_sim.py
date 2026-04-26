@@ -124,10 +124,9 @@ async def converse(jd: JDStruct, c: Candidate, m: MatchResult) -> Conversation:
 
 async def score_interest(jd: JDStruct, c: Candidate, conv: Conversation) -> InterestResult:
     raw = await generate_json(
-        model=settings.model_pro,
+        model=settings.model_flash,
         prompt=_interest_prompt(jd, c, conv),
         schema=INTEREST_SCHEMA,
-        thinking_level="MEDIUM",
         temperature=0.2,
     )
     return InterestResult(
