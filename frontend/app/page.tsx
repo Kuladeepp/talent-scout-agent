@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { JdInput } from "@/components/JdInput";
 import { WeightSliders } from "@/components/WeightSliders";
 import { ResultsTable } from "@/components/ResultsTable";
-import { ConversationDrawer } from "@/components/ConversationDrawer";
+import { CandidateDetailPanel } from "@/components/CandidateDetailPanel";
 import { toast } from "sonner";
 import type { ScoutResponse, Weights, RankedRow } from "@/lib/types";
 
@@ -33,9 +33,8 @@ export default function Home() {
       return;
     }
     setLoading(true);
+    setOpenCid(null);
     try {
-      // Call backend directly (Vercel free plan has 10s timeout on route handlers,
-      // but the pipeline can take 60-120s on first call. CORS is open on the backend.)
       const r = await fetch(`${backendUrl}/scout`, {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -62,48 +61,82 @@ export default function Home() {
   const match = openCid && resp ? resp.match_details[openCid] ?? null : null;
   const interest = openCid && resp ? resp.interest_details[openCid] ?? null : null;
 
+  const detailOpen = openCid !== null;
+
   return (
-    <div className="bg-gradient-to-b from-slate-50 to-slate-100 min-h-screen">
-      <header className="border-b bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-5 flex items-center gap-3">
-          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white font-bold">TS</div>
+    <div className="bg-gradient-to-b from-slate-50 to-slate-100 min-h-screen flex flex-col">
+      {/* Header */}
+      <header className="border-b border-slate-200 bg-white shrink-0">
+        <div className="mx-auto max-w-screen-2xl px-6 py-4 flex items-center gap-3">
+          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white font-bold text-sm">TS</div>
           <div>
-            <h1 className="text-xl font-semibold tracking-tight">Talent Scout Agent</h1>
+            <h1 className="text-lg font-semibold tracking-tight text-slate-900">Talent Scout Agent</h1>
             <p className="text-xs text-slate-500">JD → matched candidates → simulated outreach → ranked shortlist</p>
           </div>
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-6 py-8 space-y-6">
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="md:col-span-2">
-          <JdInput onSubmit={handleScout} loading={loading} />
-        </div>
-        <div>
-          <WeightSliders weights={weights} onChange={setWeights} />
-        </div>
-      </div>
-
-      {resp && (
-        <section className="space-y-3">
-          <div className="text-sm text-slate-600">
-            Parsed role: <span className="font-medium">{resp.jd.role}</span> ·{" "}
-            {resp.jd.skills_required.slice(0, 5).join(", ")}
+      {/* Main content */}
+      <main className="flex-1 flex flex-col">
+        {/* Input section */}
+        <div className="mx-auto w-full max-w-screen-2xl px-6 py-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
+            <div className="lg:col-span-3">
+              <JdInput onSubmit={handleScout} loading={loading} />
+            </div>
+            <div>
+              <WeightSliders weights={weights} onChange={setWeights} />
+            </div>
           </div>
-          <ResultsTable rows={ranked} onRowClick={setOpenCid} />
-        </section>
-      )}
+        </div>
 
-      <ConversationDrawer
-        open={openCid !== null}
-        onOpenChange={(o) => !o && setOpenCid(null)}
-        jd={resp?.jd ?? null}
-        candidateId={openCid}
-        candidateName={openRow?.name ?? ""}
-        match={match}
-        interest={interest}
-      />
+        {/* Results section — split panel */}
+        {resp && (
+          <div className="flex-1 flex flex-col border-t border-slate-200 bg-white">
+            {/* Results toolbar */}
+            <div className="mx-auto w-full max-w-screen-2xl px-6 py-3 flex items-center justify-between border-b border-slate-100">
+              <div className="text-sm text-slate-600">
+                <span className="font-semibold text-slate-900">{resp.jd.role}</span>
+                <span className="mx-2 text-slate-300">·</span>
+                <span>{resp.jd.skills_required.slice(0, 4).join(", ")}</span>
+                <span className="mx-2 text-slate-300">·</span>
+                <span className="text-slate-500">{ranked.length} candidates</span>
+              </div>
+            </div>
+
+            {/* Split layout */}
+            <div className="flex-1 flex overflow-hidden">
+              {/* Table panel */}
+              <div className={`transition-all duration-200 ease-in-out overflow-y-auto ${
+                detailOpen ? "w-1/2 xl:w-3/5" : "w-full"
+              }`}>
+                <div className={detailOpen ? "p-4" : "mx-auto max-w-screen-2xl px-6 py-4"}>
+                  <ResultsTable
+                    rows={ranked}
+                    onRowClick={setOpenCid}
+                    selectedCid={openCid}
+                    compact={detailOpen}
+                  />
+                </div>
+              </div>
+
+              {/* Detail panel */}
+              {detailOpen && (
+                <div className="w-1/2 xl:w-2/5 shrink-0 overflow-hidden border-l border-slate-200 animate-in slide-in-from-right-4 duration-200">
+                  <CandidateDetailPanel
+                    jd={resp.jd}
+                    candidateId={openCid}
+                    candidateName={openRow?.name ?? ""}
+                    candidateTitle={openRow?.title}
+                    match={match}
+                    interest={interest}
+                    onClose={() => setOpenCid(null)}
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </main>
     </div>
   );
