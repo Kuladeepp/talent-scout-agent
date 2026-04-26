@@ -1,0 +1,33 @@
+flowchart TD
+    subgraph FE["Frontend - Next.js on Vercel"]
+        UI["JD Input + Weight Sliders + Results Table + Detail Panel"]
+    end
+
+    subgraph BE["Backend - FastAPI on Cloud Run"]
+        S1["Stage 1: JD Ingestion<br/>Firecrawl scrape (URL) + Gemini 2.5 Flash parse"]
+        S2["Stage 2: Candidate Discovery<br/>text-embedding-005 + cosine similarity over 200 candidates"]
+        S3["Stage 3: Match Scoring (x20 parallel)<br/>Gemini 2.5 Pro - score 0-100 + reasoning + skills"]
+        S4["Stage 4: Outreach Simulation (x10 parallel)<br/>Gemini 2.5 Flash recruiter and candidate personas, 4 turns<br/>Gemini 2.5 Pro scores transcript -> interest 0-100"]
+        S5["Stage 5: Combined Ranking<br/>final = w_match * match + w_interest * interest"]
+    end
+
+    subgraph DATA["Data Layer"]
+        DB[("SQLite<br/>candidates.db")]
+        EMB[("NumPy matrix<br/>embeddings.npy")]
+        CACHE[("JSON disk cache<br/>JD-hash keyed")]
+    end
+
+    UI -->|"POST /scout (JD text or URL + weights)"| S1
+    S1 --> S2
+    S2 --> S3
+    S3 -->|"top 10"| S4
+    S4 --> S5
+    S5 -->|"ranked rows + transcripts + reasoning"| UI
+
+    UI -.->|"POST /explain"| S4
+
+    S2 -.-> DB
+    S2 -.-> EMB
+    S1 -.-> CACHE
+    S3 -.-> CACHE
+    S4 -.-> CACHE

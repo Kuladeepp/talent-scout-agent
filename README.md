@@ -22,6 +22,43 @@ The pipeline runs five stages:
 
 ## Architecture diagram
 
+```mermaid
+flowchart TD
+    subgraph FE["Frontend - Next.js on Vercel"]
+        UI["JD Input + Weight Sliders + Results Table + Detail Panel"]
+    end
+
+    subgraph BE["Backend - FastAPI on Cloud Run"]
+        S1["Stage 1: JD Ingestion<br/>Firecrawl scrape + Gemini 2.5 Flash parse"]
+        S2["Stage 2: Candidate Discovery<br/>text-embedding-005 + cosine over 200 candidates"]
+        S3["Stage 3: Match Scoring (x20 parallel)<br/>Gemini 2.5 Pro: 0-100 + reasoning + skills"]
+        S4["Stage 4: Outreach Simulation (x10 parallel)<br/>Flash personas, 4 turns + Pro scores transcript"]
+        S5["Stage 5: Combined Ranking<br/>final = w_match * match + w_interest * interest"]
+    end
+
+    subgraph DATA["Data Layer"]
+        DB[("SQLite candidates.db")]
+        EMB[("NumPy embeddings.npy")]
+        CACHE[("JSON disk cache")]
+    end
+
+    UI -->|"POST /scout"| S1
+    S1 --> S2
+    S2 --> S3
+    S3 -->|"top 10"| S4
+    S4 --> S5
+    S5 -->|"ranked rows"| UI
+    UI -.->|"POST /explain"| S4
+    S2 -.-> DB
+    S2 -.-> EMB
+    S1 -.-> CACHE
+    S3 -.-> CACHE
+    S4 -.-> CACHE
+```
+
+<details>
+<summary>ASCII version (fallback)</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                        FRONTEND  (Next.js / Vercel)                    │
@@ -70,6 +107,10 @@ The pipeline runs five stages:
 │  └─────────┘  └─────────┘  └──────────┘                               │
 └────────────────────────────────────────────────────────────────────────┘
 ```
+
+</details>
+
+Mermaid source also lives at [`docs/architecture.mmd`](docs/architecture.mmd) for editing.
 
 ## Scoring details
 
