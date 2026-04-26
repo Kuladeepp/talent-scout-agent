@@ -2,8 +2,8 @@
 
 Hackathon submission — **Catalyst, April 2026**.
 
-**Live demo:** `<FRONTEND_URL>` *(fill after Vercel deploy)*
-**Backend:** https://scout-backend-agah7k3aja-uc.a.run.app/docs
+**Live demo:** <https://frontend-beta-ten-81.vercel.app>
+**Backend:** <https://scout-backend-agah7k3aja-uc.a.run.app/docs>
 **Demo video:** `<YOUTUBE_OR_LOOM_LINK>` *(record using demo script below)*
 
 ## Problem
