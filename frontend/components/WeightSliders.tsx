@@ -13,9 +13,11 @@ export function WeightSliders({ weights, onChange }: Props) {
   const safeMatch = Number.isFinite(weights.match) ? weights.match : 0.6;
   const safeInterest = Number.isFinite(weights.interest) ? weights.interest : 0.4;
 
-  const setMatch = (raw: unknown) => {
-    const n = typeof raw === "number" && Number.isFinite(raw) ? raw : Math.round(safeMatch * 100);
-    const m = Math.round(n) / 100;
+  const handleChange = (v: number | readonly number[]) => {
+    // @base-ui/react Slider fires (value: number | readonly number[], details) for single thumb
+    const raw = typeof v === "number" ? v : Array.isArray(v) && v.length > 0 ? v[0] : null;
+    if (raw === null || !Number.isFinite(raw)) return;
+    const m = Math.round(raw) / 100;
     onChange({ match: m, interest: Math.round((1 - m) * 100) / 100 });
   };
 
@@ -29,10 +31,7 @@ export function WeightSliders({ weights, onChange }: Props) {
         </div>
         <Slider
           value={[Math.round(safeMatch * 100)]}
-          onValueChange={(v) => {
-            const arr = Array.isArray(v) ? v : [];
-            setMatch(arr[0]);
-          }}
+          onValueChange={handleChange}
           min={0}
           max={100}
           step={5}
