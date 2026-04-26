@@ -33,3 +33,9 @@ service-account*.json
 
 # IDE / Claude Code session state
 .claude/
+
+# Internal plans & specs (not for submission)
+docs/superpowers/
+
+# Scratch test files
+test_*.json

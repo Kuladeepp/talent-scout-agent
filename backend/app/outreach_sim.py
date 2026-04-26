@@ -84,7 +84,7 @@ def _interest_prompt(jd: JDStruct, c: Candidate, conv: Conversation) -> str:
 
 
 async def converse(jd: JDStruct, c: Candidate, m: MatchResult) -> Conversation:
-    """Run a 2-turn recruiter->candidate exchange."""
+    """Run the 4-turn back-and-forth."""
     candidate_system = CANDIDATE_SYSTEM_TEMPLATE.format(
         name=c.name, title=c.title, years=c.experience_years,
         location=c.location, profile=c.hidden_interest_profile,
@@ -98,12 +98,26 @@ async def converse(jd: JDStruct, c: Candidate, m: MatchResult) -> Conversation:
     )
     turns.append(ConversationTurn(speaker="recruiter", text=opener.strip()))
 
-    # Turn 2: candidate response
+    # Turn 2: candidate
     reply2 = await generate_text(
         settings.model_flash, _candidate_prompt(turns),
         system=candidate_system, temperature=0.8,
     )
     turns.append(ConversationTurn(speaker="candidate", text=reply2.strip()))
+
+    # Turn 3: recruiter follow-up
+    reply3 = await generate_text(
+        settings.model_flash, _recruiter_followup_prompt(jd, c, turns),
+        system=RECRUITER_SYSTEM, temperature=0.7,
+    )
+    turns.append(ConversationTurn(speaker="recruiter", text=reply3.strip()))
+
+    # Turn 4: candidate close
+    reply4 = await generate_text(
+        settings.model_flash, _candidate_prompt(turns),
+        system=candidate_system, temperature=0.8,
+    )
+    turns.append(ConversationTurn(speaker="candidate", text=reply4.strip()))
 
     return Conversation(turns=turns)
 
