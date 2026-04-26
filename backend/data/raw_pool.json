@@ -1,0 +1,3692 @@
+[
+  {
+    "id": "c001",
+    "name": "Aarav Sharma",
+    "title": "Senior Backend Engineer",
+    "skills": [
+      "Python",
+      "Django",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Celery",
+      "Docker",
+      "AWS",
+      "Kafka"
+    ],
+    "experience_years": 8,
+    "location": "Bengaluru, India",
+    "summary": "Aarav has spent the last six years building high-throughput payment systems at fintech startups. He led the migration of a monolithic Django app to a FastAPI microservices architecture handling 2M daily transactions. Known for pragmatic API design and mentoring junior engineers.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c002",
+    "name": "Priya Krishnan",
+    "title": "ML Engineer",
+    "skills": [
+      "PyTorch",
+      "LangChain",
+      "Hugging Face Transformers",
+      "Python",
+      "Ray",
+      "vLLM",
+      "FastAPI",
+      "Weights & Biases"
+    ],
+    "experience_years": 4,
+    "location": "Hyderabad, India",
+    "summary": "Priya works on LLM fine-tuning and inference optimization for a B2B SaaS company. She shipped a RAG-based customer support agent that reduced ticket resolution time by 40%. Currently exploring quantization techniques for on-prem deployments.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c003",
+    "name": "Marcus Chen",
+    "title": "Staff Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Redux",
+      "GraphQL",
+      "Webpack",
+      "Jest",
+      "Playwright",
+      "Tailwind CSS",
+      "Storybook"
+    ],
+    "experience_years": 12,
+    "location": "San Francisco, USA",
+    "summary": "Marcus leads the design system team at a Series C SaaS company. He architected a component library now used by 60+ engineers across 8 product teams. Frequent conference speaker on frontend performance.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c004",
+    "name": "Sofia Müller",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Helm",
+      "ArgoCD",
+      "Prometheus",
+      "Grafana",
+      "Bash",
+      "Python"
+    ],
+    "experience_years": 6,
+    "location": "Berlin, Germany",
+    "summary": "Sofia runs platform infrastructure for a logistics scale-up. Migrated 40+ services to GitOps with ArgoCD and cut deploy times from 25 minutes to under 4. Strong opinions about observability.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c005",
+    "name": "Rahul Verma",
+    "title": "Junior Full-stack Developer",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Git"
+    ],
+    "experience_years": 1,
+    "location": "Pune, India",
+    "summary": "Rahul recently completed a CS degree and joined an edtech startup. Built two internal admin tools end-to-end and is currently learning TypeScript and AWS basics.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c006",
+    "name": "Emily Watson",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "Jira",
+      "Amplitude",
+      "SQL",
+      "Figma",
+      "A/B Testing",
+      "User Interviews",
+      "Mixpanel"
+    ],
+    "experience_years": 7,
+    "location": "London, UK",
+    "summary": "Emily owns the growth product area at a consumer fintech. Launched a referral program that drove 18% MoM signups for two consecutive quarters. Background in management consulting.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c007",
+    "name": "Kenji Tanaka",
+    "title": "iOS Engineer",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Xcode",
+      "Core Data",
+      "RxSwift",
+      "Firebase"
+    ],
+    "experience_years": 9,
+    "location": "Singapore",
+    "summary": "Kenji has shipped consumer iOS apps at three different startups. Most recent project was a meditation app with 1.2M downloads. Deeply skeptical of cross-platform frameworks.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c008",
+    "name": "Chiamaka Okafor",
+    "title": "Data Engineer",
+    "skills": [
+      "Apache Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "Python",
+      "SQL",
+      "Kafka",
+      "AWS Glue"
+    ],
+    "experience_years": 5,
+    "location": "Remote (EU)",
+    "summary": "Chiamaka builds and maintains data pipelines for a healthtech analytics company. Owns the dbt models powering executive dashboards. Previously a backend engineer before transitioning to data.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c009",
+    "name": "David Goldberg",
+    "title": "Engineering Manager",
+    "skills": [
+      "People Management",
+      "Agile",
+      "Scrum",
+      "Python",
+      "System Design",
+      "Hiring",
+      "OKRs",
+      "1:1 Coaching"
+    ],
+    "experience_years": 14,
+    "location": "NYC, USA",
+    "summary": "David manages two backend teams totaling 11 engineers at a logistics company. Strong technical background in Python and distributed systems but hasn't coded in production for three years. Focused on growing senior ICs.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c010",
+    "name": "Ananya Iyer",
+    "title": "UX Researcher",
+    "skills": [
+      "User Interviews",
+      "Usability Testing",
+      "Figma",
+      "Dovetail",
+      "Survey Design",
+      "Qualitative Analysis",
+      "Miro"
+    ],
+    "experience_years": 3,
+    "location": "Mumbai, India",
+    "summary": "Ananya conducts research for a B2B SaaS team. Set up the company's first research repository and ran 60+ user interviews last year. Has a background in cognitive psychology.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c011",
+    "name": "James O'Sullivan",
+    "title": "Security Engineer",
+    "skills": [
+      "Penetration Testing",
+      "Burp Suite",
+      "OWASP",
+      "Python",
+      "AWS Security",
+      "SIEM",
+      "Splunk",
+      "Threat Modeling"
+    ],
+    "experience_years": 10,
+    "location": "Dublin, Ireland",
+    "summary": "James runs application security for a fintech. Built the company's bug bounty program and reduced critical vulns by 70% in 18 months. CISSP certified.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c012",
+    "name": "Wei Zhang",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "XGBoost",
+      "SQL",
+      "Pandas",
+      "Tableau",
+      "Statsmodels",
+      "A/B Testing"
+    ],
+    "experience_years": 6,
+    "location": "Toronto, Canada",
+    "summary": "Wei works on pricing models for a marketplace. Built churn prediction systems and runs the experimentation review process. Notably has limited deep learning experience despite working adjacent to ML teams.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c013",
+    "name": "Lakshmi Reddy",
+    "title": "QA Engineer",
+    "skills": [
+      "Selenium",
+      "Cypress",
+      "Postman",
+      "Jira",
+      "TestRail",
+      "Manual Testing",
+      "SQL"
+    ],
+    "experience_years": 4,
+    "location": "Hyderabad, India",
+    "summary": "Lakshmi handles QA for a healthcare product. Recently introduced Cypress to replace legacy Selenium suites and is learning to write Python automation. No CI/CD ownership yet.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c014",
+    "name": "Tom Becker",
+    "title": "Senior Backend Engineer (Go)",
+    "skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Docker",
+      "Protobuf"
+    ],
+    "experience_years": 9,
+    "location": "Berlin, Germany",
+    "summary": "Tom builds high-performance APIs for an adtech platform serving 50k QPS. Wrote internal libraries adopted across the entire engineering org. Prefers Go over everything else and is vocal about it.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c015",
+    "name": "Isabela Rodríguez",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Prototyping",
+      "Design Systems",
+      "User Flows",
+      "Webflow",
+      "Adobe Illustrator"
+    ],
+    "experience_years": 5,
+    "location": "Remote (EU)",
+    "summary": "Isabela designs for a SaaS workflow tool. Led the redesign of the onboarding flow that lifted activation by 22%. Comfortable working with engineers but limited research experience.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c016",
+    "name": "Vikram Patel",
+    "title": "Android Engineer",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Coroutines",
+      "Room",
+      "Retrofit",
+      "Dagger Hilt",
+      "Android Studio"
+    ],
+    "experience_years": 7,
+    "location": "Bengaluru, India",
+    "summary": "Vikram has worked on Android at two unicorns. Migrated a legacy XML codebase to Compose and reduced UI bugs by half. Has shipped to 30M+ users.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c017",
+    "name": "Sarah Nilsson",
+    "title": "Principal Engineer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "System Design",
+      "AWS",
+      "PostgreSQL",
+      "Distributed Systems",
+      "Cassandra"
+    ],
+    "experience_years": 17,
+    "location": "Stockholm, Sweden",
+    "summary": "Sarah is a principal engineer at a payments company, owning the architecture of the core ledger. Drives technical strategy across five teams. Spent the early part of her career at large telcos.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c018",
+    "name": "Arjun Nair",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Prisma",
+      "PostgreSQL",
+      "tRPC",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "experience_years": 4,
+    "location": "Remote (India)",
+    "summary": "Arjun builds end-to-end product features for an early-stage AI startup. Comfortable shipping fast and iterating on user feedback. Notably has never worked with cloud infrastructure beyond Vercel.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c019",
+    "name": "Hana Kim",
+    "title": "Senior Product Designer",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "Motion Design",
+      "Framer",
+      "User Research",
+      "Accessibility"
+    ],
+    "experience_years": 8,
+    "location": "Seoul, South Korea",
+    "summary": "Hana leads design for the consumer mobile app at a streaming service. Built the design system from zero to 200+ components. Has formal HCI education.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c020",
+    "name": "Ravi Subramanian",
+    "title": "SRE",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "GCP",
+      "Python",
+      "Prometheus",
+      "Istio",
+      "Go",
+      "PagerDuty"
+    ],
+    "experience_years": 11,
+    "location": "Delhi NCR, India",
+    "summary": "Ravi runs reliability for a logistics platform processing 100k orders per day. Reduced MTTR from 45 to 8 minutes through better runbooks and automation. Strong in GCP, light on AWS.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c021",
+    "name": "Olivia Park",
+    "title": "ML Engineer",
+    "skills": [
+      "TensorFlow",
+      "PyTorch",
+      "Kubeflow",
+      "Python",
+      "SQL",
+      "BigQuery",
+      "Airflow",
+      "Docker"
+    ],
+    "experience_years": 3,
+    "location": "Austin, USA",
+    "summary": "Olivia works on recommendation models for a media company. Recently shipped a two-tower retrieval model that improved CTR by 14%. Limited LLM experience.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c022",
+    "name": "Mateusz Kowalski",
+    "title": "Backend Engineer (Java)",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "PostgreSQL",
+      "Kafka",
+      "JUnit",
+      "Maven",
+      "Docker"
+    ],
+    "experience_years": 6,
+    "location": "Warsaw, Poland",
+    "summary": "Mateusz works on banking backend systems. Strong in transactional systems and complex business logic. Has not worked on cloud-native deployment patterns yet.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c023",
+    "name": "Neha Banerjee",
+    "title": "Engineering Manager",
+    "skills": [
+      "People Management",
+      "System Design",
+      "Python",
+      "Hiring",
+      "Agile",
+      "Coaching",
+      "Roadmapping"
+    ],
+    "experience_years": 13,
+    "location": "Bengaluru, India",
+    "summary": "Neha manages a platform team of 9 engineers at an e-commerce company. Promoted three engineers to senior in the past year. Came up through the backend track.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c024",
+    "name": "Lucas Ferreira",
+    "title": "Junior Data Scientist",
+    "skills": [
+      "Python",
+      "Pandas",
+      "scikit-learn",
+      "SQL",
+      "Jupyter",
+      "Matplotlib"
+    ],
+    "experience_years": 2,
+    "location": "Lisbon, Portugal",
+    "summary": "Lucas joined an analytics consultancy after a master's in statistics. Has worked on customer segmentation and basic forecasting. Eager to move into deeper ML work.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c025",
+    "name": "Aiden Murphy",
+    "title": "Senior iOS Engineer",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "Combine",
+      "Core Animation",
+      "Xcode",
+      "Fastlane"
+    ],
+    "experience_years": 11,
+    "location": "Remote (EU)",
+    "summary": "Aiden has shipped iOS apps for over a decade across fintech and health. Currently freelance, working with two startups simultaneously. Pragmatic about UIKit vs SwiftUI tradeoffs.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c026",
+    "name": "Divya Menon",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "Jira",
+      "SQL",
+      "Figma",
+      "Stakeholder Management",
+      "Looker",
+      "Customer Discovery"
+    ],
+    "experience_years": 5,
+    "location": "Bengaluru, India",
+    "summary": "Divya owns the merchant onboarding product at a payments company. Reduced KYC drop-off by 30% through a redesigned flow. Background in computer science.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c027",
+    "name": "Henrik Larsen",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Ansible",
+      "Jenkins",
+      "AWS",
+      "Bash",
+      "Docker",
+      "Linux",
+      "Nagios"
+    ],
+    "experience_years": 12,
+    "location": "Copenhagen, Denmark",
+    "summary": "Henrik has been doing ops for over a decade, primarily in traditional enterprise environments. Strong with Ansible and bare-metal but has limited Kubernetes experience, which he's actively trying to fill.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c028",
+    "name": "Sneha Joshi",
+    "title": "Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS Modules",
+      "React Query",
+      "Vitest",
+      "Tailwind CSS"
+    ],
+    "experience_years": 3,
+    "location": "Pune, India",
+    "summary": "Sneha builds dashboards for a B2B analytics product. Recently led the migration from CRA to Next.js App Router. Detail-oriented about accessibility.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c029",
+    "name": "Christopher Bailey",
+    "title": "Staff Data Engineer",
+    "skills": [
+      "Spark",
+      "Scala",
+      "Airflow",
+      "Databricks",
+      "Delta Lake",
+      "Python",
+      "Kafka",
+      "AWS",
+      "dbt"
+    ],
+    "experience_years": 15,
+    "location": "Seattle, USA",
+    "summary": "Christopher architects data platforms at a large retailer. Owns the lakehouse strategy serving 200+ analysts. Pragmatic about build-vs-buy decisions.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c030",
+    "name": "Fatima Al-Sayed",
+    "title": "Security Engineer",
+    "skills": [
+      "Cloud Security",
+      "AWS",
+      "IAM",
+      "Terraform",
+      "Python",
+      "Vault",
+      "Container Security"
+    ],
+    "experience_years": 6,
+    "location": "Dubai, UAE",
+    "summary": "Fatima focuses on cloud security posture management for a fintech. Implemented company-wide SSO and rotated all long-lived credentials in 90 days. Light on application-level security.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c031",
+    "name": "Ethan Walker",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "React",
+      "TypeScript",
+      "Sidekiq",
+      "Redis",
+      "Heroku"
+    ],
+    "experience_years": 7,
+    "location": "Toronto, Canada",
+    "summary": "Ethan has spent his entire career in Rails shops. Currently a senior at a B2B SaaS company. Has shipped lots of features but limited exposure to AWS-native infrastructure.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c032",
+    "name": "Aditi Kapoor",
+    "title": "ML Engineer",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LangChain",
+      "LlamaIndex",
+      "FastAPI",
+      "Pinecone",
+      "OpenAI API",
+      "Docker"
+    ],
+    "experience_years": 2,
+    "location": "Remote (India)",
+    "summary": "Aditi pivoted from data analytics into LLM application engineering. Has built three production RAG systems for clients in legal and healthcare. Self-taught and shipping fast.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c033",
+    "name": "Joshua Bennett",
+    "title": "QA Automation Engineer (SDET)",
+    "skills": [
+      "Java",
+      "Selenium",
+      "TestNG",
+      "REST Assured",
+      "Jenkins",
+      "Cucumber",
+      "Postman",
+      "Git"
+    ],
+    "experience_years": 8,
+    "location": "Austin, USA",
+    "summary": "Joshua leads automation at a mid-size healthtech. Built the framework currently running 4000+ tests nightly. Strong Java but no JS framework experience.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c034",
+    "name": "Xiaoyu Liu",
+    "title": "Senior Frontend Engineer",
+    "skills": [
+      "Vue.js",
+      "TypeScript",
+      "Nuxt",
+      "Pinia",
+      "Vite",
+      "Cypress",
+      "SCSS"
+    ],
+    "experience_years": 8,
+    "location": "Singapore",
+    "summary": "Xiaoyu specializes in Vue ecosystem and has been a contributor to several open source plugins. Currently at a fintech building trader-facing dashboards. Limited React experience.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c035",
+    "name": "Kabir Singh",
+    "title": "Backend Engineer",
+    "skills": [
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Pytest",
+      "SQLAlchemy"
+    ],
+    "experience_years": 3,
+    "location": "Delhi NCR, India",
+    "summary": "Kabir works on internal tools at a mid-stage startup. Has solid fundamentals but his title says senior despite only three years of experience — promoted via a small-company growth track. Has not worked at scale.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c036",
+    "name": "Maria Santos",
+    "title": "UX Researcher",
+    "skills": [
+      "User Interviews",
+      "Diary Studies",
+      "Usability Testing",
+      "Mixed Methods",
+      "Maze",
+      "Figma",
+      "Statistics"
+    ],
+    "experience_years": 9,
+    "location": "Madrid, Spain",
+    "summary": "Maria leads research for a travel platform. PhD in HCI and runs quarterly mixed-methods research initiatives across product. Mentors junior researchers across the org.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c037",
+    "name": "Daniel Schmidt",
+    "title": "Principal Data Scientist",
+    "skills": [
+      "Python",
+      "R",
+      "Causal Inference",
+      "Bayesian Statistics",
+      "SQL",
+      "Spark",
+      "Experimentation",
+      "XGBoost"
+    ],
+    "experience_years": 16,
+    "location": "Berlin, Germany",
+    "summary": "Daniel leads data science at a marketplace. Built the experimentation platform used across the company. Active in the causal inference community and publishes regularly.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c038",
+    "name": "Mei Lin Wong",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "SQL",
+      "Figma",
+      "Mixpanel",
+      "Pendo",
+      "Customer Interviews",
+      "Pricing"
+    ],
+    "experience_years": 4,
+    "location": "Singapore",
+    "summary": "Mei Lin manages monetization for a B2C app. Designed the freemium-to-paid funnel that doubled trial conversion. Came from a strategy consulting background.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c039",
+    "name": "Ibrahim Yusuf",
+    "title": "Senior DevOps Engineer",
+    "skills": [
+      "Kubernetes",
+      "Helm",
+      "AWS",
+      "Terraform",
+      "GitHub Actions",
+      "Python",
+      "Datadog",
+      "Istio"
+    ],
+    "experience_years": 9,
+    "location": "Lagos, Nigeria",
+    "summary": "Ibrahim runs platform engineering for a pan-African fintech. Built multi-region active-active infrastructure spanning four AWS regions. Hands-on despite being senior.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c040",
+    "name": "Hannah Zhao",
+    "title": "Junior Frontend Engineer",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Git",
+      "Figma"
+    ],
+    "experience_years": 1,
+    "location": "NYC, USA",
+    "summary": "Hannah graduated from a bootcamp last year and joined a small ad agency. Building landing pages and learning TypeScript on the side.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c041",
+    "name": "Alessandro Rossi",
+    "title": "Engineering Manager",
+    "skills": [
+      "People Management",
+      "JavaScript",
+      "TypeScript",
+      "Hiring",
+      "Agile",
+      "Roadmapping",
+      "Coaching"
+    ],
+    "experience_years": 11,
+    "location": "Milan, Italy",
+    "summary": "Alessandro manages a frontend platform team of 7 engineers. Came up as a frontend engineer and stays close to the codebase via reviews. Has reorganized two teams successfully.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c042",
+    "name": "Riya Mehta",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "SQL",
+      "scikit-learn",
+      "Tableau",
+      "Pandas",
+      "A/B Testing",
+      "Looker"
+    ],
+    "experience_years": 4,
+    "location": "Mumbai, India",
+    "summary": "Riya works on marketing analytics and customer LTV models for a D2C brand. Strong applied stats but limited engineering chops; she partners with ML engineers to productionize models.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c043",
+    "name": "Benjamin Carter",
+    "title": "Backend Engineer (Go)",
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "gRPC",
+      "Kafka",
+      "REST"
+    ],
+    "experience_years": 5,
+    "location": "London, UK",
+    "summary": "Benjamin builds backend services for a logistics SaaS. Comfortable with Go and event-driven systems. Notably no Kubernetes experience — his current company uses managed ECS.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c044",
+    "name": "Yuki Sato",
+    "title": "Senior Android Engineer",
+    "skills": [
+      "Kotlin",
+      "Java",
+      "Jetpack Compose",
+      "RxJava",
+      "Coroutines",
+      "Dagger",
+      "Gradle",
+      "Firebase"
+    ],
+    "experience_years": 10,
+    "location": "Tokyo, Japan",
+    "summary": "Yuki has worked on Android at gaming and consumer companies. Currently maintains a multi-module app with 1500+ Kotlin files. Mentors a team of four mobile engineers.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c045",
+    "name": "Naomi Eze",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "User Research",
+      "Notion",
+      "Webflow",
+      "Illustration"
+    ],
+    "experience_years": 4,
+    "location": "Remote (EU)",
+    "summary": "Naomi designs for a developer tools startup. Strong visual design taste and shipped the brand refresh last year. Working on getting more comfortable with quantitative research methods.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c046",
+    "name": "Carlos Mendoza",
+    "title": "SRE",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Python",
+      "Go",
+      "Prometheus",
+      "Grafana",
+      "Linux"
+    ],
+    "experience_years": 7,
+    "location": "Mexico City, Mexico",
+    "summary": "Carlos runs reliability for a series B fintech. On-call lead for the past two years. Reduced incident frequency by 40% through better deploy gating.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c047",
+    "name": "Jasmine Okonkwo",
+    "title": "Backend Engineer",
+    "skills": [
+      "Python",
+      "Django",
+      "DRF",
+      "PostgreSQL",
+      "Celery",
+      "AWS",
+      "Docker",
+      "Pytest"
+    ],
+    "experience_years": 6,
+    "location": "Remote (EU)",
+    "summary": "Jasmine works on backend for a healthtech serving European hospitals. Strong on Django and HIPAA-equivalent compliance work. Has not worked with async Python frameworks yet.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c048",
+    "name": "Rohit Deshpande",
+    "title": "Staff ML Engineer",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Ray",
+      "Kubernetes",
+      "CUDA",
+      "Triton",
+      "MLflow",
+      "Spark"
+    ],
+    "experience_years": 15,
+    "location": "Bengaluru, India",
+    "summary": "Rohit leads the ML platform team at a large e-commerce company. Owns the training infrastructure used by 80+ ML engineers. PhD in machine learning and 10+ patents.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c049",
+    "name": "Clara Dubois",
+    "title": "Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Jest",
+      "CSS-in-JS",
+      "Storybook",
+      "Figma"
+    ],
+    "experience_years": 5,
+    "location": "Paris, France",
+    "summary": "Clara builds the customer-facing app at a French fintech. Strong on React and component architecture. Drove the adoption of TypeScript across her team last year.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c050",
+    "name": "Mohammed Hassan",
+    "title": "Junior DevOps Engineer",
+    "skills": [
+      "Docker",
+      "AWS",
+      "Bash",
+      "Linux",
+      "Git",
+      "Jenkins",
+      "Python"
+    ],
+    "experience_years": 2,
+    "location": "Cairo, Egypt",
+    "summary": "Mohammed transitioned from sysadmin to DevOps two years ago. Currently learning Kubernetes and Terraform on the job. Eager to work on more modern cloud-native stacks.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c051",
+    "name": "Aishwarya Nair",
+    "title": "Senior Backend Engineer",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Celery",
+      "Docker",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "experience_years": 9,
+    "location": "Bengaluru, India",
+    "summary": "Aishwarya leads backend services for a fintech payments platform processing 2M transactions daily. She redesigned the reconciliation pipeline using FastAPI and Celery, cutting end-of-day batch time from 6 hours to 40 minutes. Comfortable owning systems end-to-end but has limited exposure to AWS, having worked exclusively on GCP.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c052",
+    "name": "Marcus Whitfield",
+    "title": "Staff ML Engineer",
+    "skills": [
+      "PyTorch",
+      "LangChain",
+      "vLLM",
+      "CUDA",
+      "Triton",
+      "Ray",
+      "Weights & Biases",
+      "Hugging Face",
+      "Python"
+    ],
+    "experience_years": 16,
+    "location": "San Francisco, USA",
+    "summary": "Marcus has spent the last four years on LLM inference optimization at a foundation model lab. Shipped a custom CUDA kernel reducing 70B model latency by 35%. Previously led recsys at a streaming company.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c053",
+    "name": "Priya Subramanian",
+    "title": "Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Vite",
+      "Jest",
+      "Storybook"
+    ],
+    "experience_years": 4,
+    "location": "Hyderabad, India",
+    "summary": "Priya builds the customer dashboard for a B2B SaaS analytics product. Migrated the codebase from CRA to Vite and introduced Storybook-driven component development. Looking for her next role with a stronger product culture.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c054",
+    "name": "Tomás Reinhardt",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "Ansible",
+      "Prometheus",
+      "Grafana",
+      "Kubernetes",
+      "ArgoCD",
+      "Bash"
+    ],
+    "experience_years": 7,
+    "location": "Berlin, Germany",
+    "summary": "Tomás runs platform engineering for a mid-sized e-commerce company. Built a GitOps workflow on ArgoCD serving 60+ microservices. Strong on infra but admits frontend and ML topics are blind spots.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c055",
+    "name": "Hina Matsumoto",
+    "title": "iOS Engineer",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Core Data",
+      "XCTest",
+      "Fastlane"
+    ],
+    "experience_years": 6,
+    "location": "Singapore",
+    "summary": "Hina shipped the rewrite of a regional banking app to SwiftUI used by 4M customers. Champions accessibility and has spoken at iOSConf SG twice.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c056",
+    "name": "Daniel Okonkwo",
+    "title": "Data Engineer",
+    "skills": [
+      "Apache Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "Python",
+      "Kafka",
+      "AWS S3",
+      "Terraform"
+    ],
+    "experience_years": 5,
+    "location": "London, UK",
+    "summary": "Daniel built the data platform from scratch at a Series B health-tech startup. Loves dbt, hates manual deployment, and once debugged an Airflow DAG at 3am during a regulator demo.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c057",
+    "name": "Anjali Verma",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "Jira",
+      "Amplitude",
+      "SQL",
+      "Figma",
+      "A/B Testing",
+      "Stakeholder Management"
+    ],
+    "experience_years": 8,
+    "location": "Pune, India",
+    "summary": "Anjali manages the growth surface for an Indian edtech platform with 12M MAUs. Drove a checkout redesign that lifted conversion 18%. Strong analytics chops, hands-on with SQL.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c058",
+    "name": "Kwame Asante",
+    "title": "Security Engineer",
+    "skills": [
+      "Burp Suite",
+      "Nmap",
+      "Python",
+      "AWS IAM",
+      "Wiz",
+      "Terraform",
+      "SAST",
+      "DAST"
+    ],
+    "experience_years": 6,
+    "location": "Remote (EU)",
+    "summary": "Kwame focuses on cloud security posture and offensive testing. Recently led a red team exercise that uncovered a critical IAM privilege escalation. Less experienced with on-prem networks.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c059",
+    "name": "Elena Vasquez",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "FigJam",
+      "Protopie",
+      "User Interviews",
+      "Design Systems",
+      "Accessibility",
+      "Webflow"
+    ],
+    "experience_years": 5,
+    "location": "NYC, USA",
+    "summary": "Elena designs for a B2B fintech and led the rollout of their multi-brand design system across 4 product lines. Known for tight collaboration with engineering and a bias toward shipping.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c060",
+    "name": "Rahul Iyer",
+    "title": "Junior Full-stack Engineer",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Git"
+    ],
+    "experience_years": 1,
+    "location": "Mumbai, India",
+    "summary": "Rahul joined his first company out of bootcamp and contributes across a small team. Built an admin tool used internally by 200 ops staff. Eager to grow into backend depth.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c061",
+    "name": "Sophie Laurent",
+    "title": "UX Researcher",
+    "skills": [
+      "User Interviews",
+      "Dovetail",
+      "Usertesting.com",
+      "Survey Design",
+      "Thematic Analysis",
+      "Figma",
+      "Notion"
+    ],
+    "experience_years": 4,
+    "location": "Remote (EU)",
+    "summary": "Sophie embedded with product teams at a large travel marketplace, running 60+ generative studies last year. Comfortable balancing qual and quant. Currently exploring research ops roles.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c062",
+    "name": "Vikram Bhattacharya",
+    "title": "Engineering Manager",
+    "skills": [
+      "People Management",
+      "Java",
+      "Spring Boot",
+      "System Design",
+      "Hiring",
+      "Agile",
+      "AWS"
+    ],
+    "experience_years": 13,
+    "location": "Bengaluru, India",
+    "summary": "Vikram manages two squads (14 engineers) on a logistics marketplace. Built a hiring pipeline that closed 22 senior offers last year. Still codes occasionally on weekend prototypes.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c063",
+    "name": "Yuki Tanaka",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "XGBoost",
+      "SQL",
+      "Pandas",
+      "Tableau",
+      "Statsmodels",
+      "A/B Testing"
+    ],
+    "experience_years": 3,
+    "location": "Toronto, Canada",
+    "summary": "Yuki works on marketing attribution and uplift modeling at a subscription commerce company. Prefers interpretable models and rigorous experimentation. No deep learning experience.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c064",
+    "name": "Olusegun Adeyemi",
+    "title": "Android Engineer",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Coroutines",
+      "Room",
+      "Hilt",
+      "Firebase",
+      "Espresso"
+    ],
+    "experience_years": 7,
+    "location": "Remote (EU)",
+    "summary": "Olusegun shipped the Compose migration of a 1M+ DAU African banking app. Strong testing discipline and mentors junior engineers across two timezones.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c065",
+    "name": "Catalina Moreno",
+    "title": "SDET",
+    "skills": [
+      "Selenium",
+      "Playwright",
+      "TypeScript",
+      "Cypress",
+      "Postman",
+      "Jenkins",
+      "JMeter"
+    ],
+    "experience_years": 5,
+    "location": "Austin, USA",
+    "summary": "Catalina built the end-to-end automation framework at a healthtech scaleup, reducing regression cycle from 3 days to 4 hours. Curious about chaos engineering as a next step.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c066",
+    "name": "Arjun Malhotra",
+    "title": "Senior Full-stack Engineer",
+    "skills": [
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "tRPC",
+      "AWS",
+      "Docker"
+    ],
+    "experience_years": 8,
+    "location": "Delhi NCR, India",
+    "summary": "Arjun owns the core booking flow for a travel startup. Replaced a legacy PHP monolith with a Next.js + tRPC stack over 18 months. Pragmatic, opinionated, slightly burnt out.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c067",
+    "name": "Mei-Ling Chen",
+    "title": "ML Engineer",
+    "skills": [
+      "TensorFlow",
+      "Keras",
+      "Python",
+      "BigQuery",
+      "Vertex AI",
+      "Airflow",
+      "SQL"
+    ],
+    "experience_years": 4,
+    "location": "Singapore",
+    "summary": "Mei-Ling builds demand forecasting models for a regional grocery chain. Deeply invested in MLOps on GCP. Hasn't worked with LLMs or PyTorch in production.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c068",
+    "name": "Jonas Berg",
+    "title": "Site Reliability Engineer",
+    "skills": [
+      "Kubernetes",
+      "Go",
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "GCP",
+      "Istio",
+      "PagerDuty"
+    ],
+    "experience_years": 10,
+    "location": "Berlin, Germany",
+    "summary": "Jonas led the migration from VMs to Kubernetes at a media company serving 80M monthly users. Brought P99 latency down 60% on the ad delivery path.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c069",
+    "name": "Neha Kapoor",
+    "title": "Junior QA Engineer",
+    "skills": [
+      "Manual Testing",
+      "JIRA",
+      "Postman",
+      "SQL",
+      "TestRail"
+    ],
+    "experience_years": 2,
+    "location": "Hyderabad, India",
+    "summary": "Neha handles regression and exploratory testing for a B2B logistics product. Self-taught Postman API testing. Wants to transition into automation.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c070",
+    "name": "Christopher Hale",
+    "title": "Principal Engineer",
+    "skills": [
+      "Go",
+      "Rust",
+      "Distributed Systems",
+      "Kafka",
+      "gRPC",
+      "Kubernetes",
+      "PostgreSQL",
+      "System Design"
+    ],
+    "experience_years": 18,
+    "location": "Remote (EU)",
+    "summary": "Christopher has architected payments infrastructure at three different scaleups. Currently advises a Series C company on multi-region failover. Known for surgical code reviews.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c071",
+    "name": "Riya Deshmukh",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "SQL",
+      "Pandas",
+      "LangChain",
+      "FastAPI",
+      "Streamlit"
+    ],
+    "experience_years": 3,
+    "location": "Pune, India",
+    "summary": "Riya pivoted from analytics to applied ML and now builds RAG pipelines for an enterprise search product. Strong product sense, lighter on classical ML theory.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c072",
+    "name": "Lukas Novák",
+    "title": "Backend Engineer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Kotlin",
+      "Kafka",
+      "PostgreSQL",
+      "Maven",
+      "JUnit"
+    ],
+    "experience_years": 6,
+    "location": "Remote (EU)",
+    "summary": "Lukas works on the order management system of a European retailer. Comfortable in Java and Kotlin but has avoided cloud platforms — everything runs on-prem with bare-metal Kubernetes.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c073",
+    "name": "Amara Johnson",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Principle",
+      "User Research",
+      "Design Systems",
+      "Prototyping"
+    ],
+    "experience_years": 9,
+    "location": "NYC, USA",
+    "summary": "Amara leads design for the consumer surface of a major fintech. Reorganized the IA of the mobile app, improving task completion by 23%. Mentors juniors and runs a small design book club.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c074",
+    "name": "Hassan Qureshi",
+    "title": "DevOps Engineer",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "CircleCI",
+      "Docker",
+      "Bash",
+      "Python",
+      "CloudFormation"
+    ],
+    "experience_years": 3,
+    "location": "Remote (India)",
+    "summary": "Hassan handles CI/CD and AWS infra for a small SaaS team. Built reusable Terraform modules adopted across 3 product lines. Hasn't worked with Kubernetes seriously yet.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c075",
+    "name": "Isabella Rossi",
+    "title": "Engineering Manager",
+    "skills": [
+      "People Management",
+      "Python",
+      "Django",
+      "System Design",
+      "OKRs",
+      "Coaching",
+      "PostgreSQL"
+    ],
+    "experience_years": 12,
+    "location": "London, UK",
+    "summary": "Isabella manages a platform team of 9 at a climate-tech startup. Previously a tech lead at a consultancy. Strong on 1:1s and career frameworks.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c076",
+    "name": "Saurabh Pillai",
+    "title": "ML Engineer",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "CUDA",
+      "Triton",
+      "Kubernetes",
+      "MLflow",
+      "Ray"
+    ],
+    "experience_years": 7,
+    "location": "Bengaluru, India",
+    "summary": "Saurabh trains and serves vision-language models for a robotics startup. Owns the entire training-to-inference stack. Speaks regularly at PyTorch India meetups.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c077",
+    "name": "Grace Mwangi",
+    "title": "Frontend Engineer",
+    "skills": [
+      "React",
+      "Redux",
+      "JavaScript",
+      "CSS",
+      "Webpack",
+      "Cypress",
+      "Jest"
+    ],
+    "experience_years": 5,
+    "location": "Remote (EU)",
+    "summary": "Grace builds the merchant-facing UI of a pan-African payments platform. Has not yet adopted TypeScript in production but is eager to. Strong CSS instincts.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c078",
+    "name": "Daichi Yamamoto",
+    "title": "Senior iOS Engineer",
+    "skills": [
+      "Swift",
+      "Objective-C",
+      "UIKit",
+      "SwiftUI",
+      "Core Animation",
+      "Realm",
+      "XCTest"
+    ],
+    "experience_years": 11,
+    "location": "Toronto, Canada",
+    "summary": "Daichi has shipped iOS apps for 11 years across gaming, fitness, and now health. Loves performance work and once shaved 400ms off cold start by reordering dyld bindings.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c079",
+    "name": "Pooja Krishnan",
+    "title": "Data Engineer",
+    "skills": [
+      "Python",
+      "Airflow",
+      "dbt",
+      "Redshift",
+      "SQL",
+      "Fivetran",
+      "AWS Glue"
+    ],
+    "experience_years": 4,
+    "location": "Bengaluru, India",
+    "summary": "Pooja maintains the analytics warehouse for a D2C beauty brand. Migrated 200+ legacy SQL jobs to dbt over six months. No real-time/streaming experience yet.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c080",
+    "name": "Felix Brandt",
+    "title": "Security Engineer",
+    "skills": [
+      "Python",
+      "Splunk",
+      "SIEM",
+      "Threat Modeling",
+      "OWASP",
+      "Kubernetes",
+      "Falco",
+      "HashiCorp Vault"
+    ],
+    "experience_years": 9,
+    "location": "Berlin, Germany",
+    "summary": "Felix runs the detection and response function at a B2B SaaS unicorn. Built playbooks that reduced MTTD from hours to minutes. Wary of vendors selling 'AI SOC' solutions.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c081",
+    "name": "Lakshmi Raghavan",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "Mixpanel",
+      "SQL",
+      "Figma",
+      "Customer Discovery",
+      "B2B SaaS",
+      "Jira"
+    ],
+    "experience_years": 4,
+    "location": "Remote (India)",
+    "summary": "Lakshmi manages the integrations area for a developer tools company. Shipped 14 partner integrations in 18 months. Career-switcher from a product marketing background.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c082",
+    "name": "Benjamin Clarke",
+    "title": "Backend Engineer",
+    "skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Redis",
+      "Kubernetes",
+      "Protobuf",
+      "NATS"
+    ],
+    "experience_years": 6,
+    "location": "Austin, USA",
+    "summary": "Ben writes Go services for a real-time bidding platform handling 200K QPS. Has never worked in Python beyond hacky scripts.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c083",
+    "name": "Shreya Banerjee",
+    "title": "UX Researcher",
+    "skills": [
+      "Mixed Methods",
+      "User Interviews",
+      "Diary Studies",
+      "Maze",
+      "Figma",
+      "Stakeholder Workshops"
+    ],
+    "experience_years": 7,
+    "location": "Bengaluru, India",
+    "summary": "Shreya leads research at a vernacular content platform serving tier-2/3 India. Conducts most fieldwork in person across small towns. Deeply skeptical of remote-only research.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c084",
+    "name": "Ahmed El-Sayed",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "Vue.js",
+      "Nuxt",
+      "Node.js",
+      "TypeScript",
+      "MySQL",
+      "Redis",
+      "Docker"
+    ],
+    "experience_years": 5,
+    "location": "Remote (EU)",
+    "summary": "Ahmed has built three side projects to revenue using Nuxt and lightweight Node backends. Currently freelancing while exploring full-time roles.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c085",
+    "name": "Linnea Sjöberg",
+    "title": "Engineering Manager",
+    "skills": [
+      "Coaching",
+      "React",
+      "TypeScript",
+      "Hiring",
+      "Agile",
+      "System Design",
+      "Jira"
+    ],
+    "experience_years": 11,
+    "location": "Remote (EU)",
+    "summary": "Linnea manages two frontend squads at a Nordic banking platform. Originally a designer-turned-engineer, brings strong empathy for product partners.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c086",
+    "name": "Karthik Reddy",
+    "title": "Senior DevOps Engineer",
+    "skills": [
+      "Kubernetes",
+      "Helm",
+      "ArgoCD",
+      "AWS",
+      "Terraform",
+      "Python",
+      "Datadog",
+      "Linux"
+    ],
+    "experience_years": 10,
+    "location": "Hyderabad, India",
+    "summary": "Karthik built the platform team at a fast-growing healthtech, supporting 40 product engineers. Strong opinions on golden paths and developer experience.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c087",
+    "name": "Emily Carter",
+    "title": "Junior Data Scientist",
+    "skills": [
+      "Python",
+      "Pandas",
+      "scikit-learn",
+      "SQL",
+      "Jupyter",
+      "Matplotlib"
+    ],
+    "experience_years": 1,
+    "location": "London, UK",
+    "summary": "Emily joined a retail analytics team six months ago after a master's in statistics. Currently focused on customer segmentation work. Limited engineering experience.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c088",
+    "name": "Mateusz Kowalski",
+    "title": "Senior Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "GraphQL",
+      "Apollo",
+      "Tailwind CSS",
+      "Playwright"
+    ],
+    "experience_years": 9,
+    "location": "Remote (EU)",
+    "summary": "Mateusz has been a frontend specialist for nearly a decade, lately leading the rewrite of a B2B procurement platform's UI. Mentors juniors via a paid Substack on advanced React patterns.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c089",
+    "name": "Aditi Sharma",
+    "title": "Mobile Engineer (Cross-platform)",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Expo",
+      "Redux",
+      "Firebase",
+      "Detox",
+      "Fastlane"
+    ],
+    "experience_years": 4,
+    "location": "Delhi NCR, India",
+    "summary": "Aditi maintains a React Native app with 5M downloads in the food delivery space. Has occasional native iOS forays but no Android-native experience.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c090",
+    "name": "Robert Nilsson",
+    "title": "Staff Data Engineer",
+    "skills": [
+      "Spark",
+      "Scala",
+      "Airflow",
+      "Iceberg",
+      "Kafka",
+      "Python",
+      "AWS",
+      "Trino"
+    ],
+    "experience_years": 15,
+    "location": "Remote (EU)",
+    "summary": "Robert designs lakehouse architectures for enterprises. Currently leads a multi-petabyte Iceberg migration off Hive. Known for crisp ADRs.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c091",
+    "name": "Fatima Ali",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "User Research",
+      "Design Systems",
+      "Motion Design",
+      "After Effects",
+      "Webflow"
+    ],
+    "experience_years": 3,
+    "location": "Mumbai, India",
+    "summary": "Fatima designs marketing surfaces and onboarding flows for a consumer wellness app. Strong visual instincts; wants to grow into more complex product surfaces.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c092",
+    "name": "Henry Walsh",
+    "title": "SRE",
+    "skills": [
+      "Linux",
+      "Bash",
+      "Python",
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Prometheus",
+      "Chef"
+    ],
+    "experience_years": 8,
+    "location": "NYC, USA",
+    "summary": "Henry came up through systems administration and now runs reliability for a trading platform. Skeptical of buzzwords; has yet to touch any 'AIOps' tooling seriously.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c093",
+    "name": "Sneha Pillai",
+    "title": "Backend Engineer",
+    "skills": [
+      "Python",
+      "Django",
+      "DRF",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "Docker"
+    ],
+    "experience_years": 3,
+    "location": "Remote (India)",
+    "summary": "Sneha works at a small CRM startup as one of three backend engineers. Owns the billing service end to end. Has no production cloud experience — everything is on a single DigitalOcean droplet.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c094",
+    "name": "David Park",
+    "title": "ML Engineer",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "ONNX",
+      "TensorRT",
+      "FastAPI",
+      "Kubernetes",
+      "CUDA"
+    ],
+    "experience_years": 6,
+    "location": "San Francisco, USA",
+    "summary": "David specializes in model deployment and inference optimization. Recently brought an ASR model down from 800ms to 120ms per request through quantization and batching tweaks.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c095",
+    "name": "Chioma Eze",
+    "title": "Senior Product Manager",
+    "skills": [
+      "Roadmapping",
+      "SQL",
+      "Amplitude",
+      "Figma",
+      "Stakeholder Management",
+      "Pricing",
+      "B2B SaaS"
+    ],
+    "experience_years": 10,
+    "location": "Remote (EU)",
+    "summary": "Chioma led pricing and packaging at a horizontal B2B SaaS, driving a 14% net revenue retention lift. Strong cross-functional operator with finance and sales backgrounds.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c096",
+    "name": "Manish Gupta",
+    "title": "Junior Backend Engineer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Git",
+      "Postman"
+    ],
+    "experience_years": 2,
+    "location": "Bengaluru, India",
+    "summary": "Manish works on internal tools at a large IT services firm. Self-studying system design on weekends and contributing to small open-source Spring projects.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c097",
+    "name": "Sara Lindqvist",
+    "title": "Security Engineer",
+    "skills": [
+      "AWS",
+      "IAM",
+      "Terraform",
+      "Python",
+      "Wiz",
+      "Snyk",
+      "OWASP",
+      "Kubernetes"
+    ],
+    "experience_years": 4,
+    "location": "Berlin, Germany",
+    "summary": "Sara focuses on application and cloud security at a B2B analytics company. Built shift-left tooling adopted by all engineering teams within a quarter.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c098",
+    "name": "Rohan Mehta",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "AWS"
+    ],
+    "experience_years": 6,
+    "location": "Pune, India",
+    "summary": "Rohan splits his time across frontend and backend on a small team building developer tools. Title says full-stack but his actual recent work has been 80% backend.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c099",
+    "name": "Aiko Sato",
+    "title": "Senior UX Researcher",
+    "skills": [
+      "Mixed Methods",
+      "Quant Analysis",
+      "Python",
+      "Dovetail",
+      "Survey Design",
+      "Workshop Facilitation"
+    ],
+    "experience_years": 12,
+    "location": "Singapore",
+    "summary": "Aiko has built research practices at three different scaleups, most recently a regional super-app. Holds a PhD in HCI and brings rigor without academic detachment.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c100",
+    "name": "Liam O'Connor",
+    "title": "Engineering Manager",
+    "skills": [
+      "People Management",
+      "Go",
+      "Kubernetes",
+      "Hiring",
+      "Coaching",
+      "System Design",
+      "AWS"
+    ],
+    "experience_years": 14,
+    "location": "Remote (EU)",
+    "summary": "Liam manages a platform org of 18 engineers across three squads at a climate tech company. Strong on org design and cross-team dependency management. Considering returning to an IC track.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c101",
+    "name": "Aarav Mehta",
+    "title": "Senior Backend Engineer",
+    "skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "experience_years": 9,
+    "location": "Bengaluru, India",
+    "summary": "Aarav has spent the last six years scaling payments infrastructure at a large Indian fintech, owning the migration from monolith to service mesh. He led a Celery-to-Temporal rewrite that cut job failure rates by 70%. Strong in Python ecosystems but has limited cloud experience outside on-prem and bare-metal Kubernetes.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c102",
+    "name": "Priya Raghavan",
+    "title": "ML Engineer",
+    "skills": [
+      "PyTorch",
+      "LangChain",
+      "Hugging Face Transformers",
+      "vLLM",
+      "Ray",
+      "FastAPI",
+      "Weights & Biases",
+      "CUDA"
+    ],
+    "experience_years": 5,
+    "location": "Hyderabad, India",
+    "summary": "Priya builds LLM-powered retrieval systems for a healthcare startup. She fine-tuned a Llama 3 8B model for clinical note summarization and shipped it on vLLM serving 2M tokens/day. Comfortable with training pipelines but hasn't worked with classical ML or tabular problems much.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c103",
+    "name": "Jonas Bergmann",
+    "title": "Staff Site Reliability Engineer",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Prometheus",
+      "Grafana",
+      "Go",
+      "AWS",
+      "Istio",
+      "ArgoCD",
+      "eBPF"
+    ],
+    "experience_years": 16,
+    "location": "Berlin, Germany",
+    "summary": "Staff SRE with deep platform experience across two unicorns. Jonas designed multi-region failover for a logistics platform serving 40M users. Known for mentoring and writing internal runbooks that get cited years later.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c104",
+    "name": "Mei Lin Chen",
+    "title": "Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS",
+      "Zustand",
+      "Vite",
+      "Playwright",
+      "GraphQL"
+    ],
+    "experience_years": 4,
+    "location": "Singapore",
+    "summary": "Mei Lin shipped a redesigned checkout flow at a regional e-commerce company that lifted conversion 12%. She cares about accessibility and performance budgets. Limited backend exposure beyond consuming GraphQL.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c105",
+    "name": "Daniel O'Connor",
+    "title": "Engineering Manager",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "AWS",
+      "Team Leadership",
+      "Hiring",
+      "OKRs",
+      "System Design"
+    ],
+    "experience_years": 13,
+    "location": "London, United Kingdom",
+    "summary": "Daniel manages two backend squads (12 engineers) at a B2B SaaS. Former IC with a Spring/Kafka background; now mostly in roadmap and hiring work. Misses coding but is honest about being three years out of the keyboard.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c106",
+    "name": "Ananya Iyer",
+    "title": "Junior Data Engineer",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "Pandas"
+    ],
+    "experience_years": 1,
+    "location": "Pune, India",
+    "summary": "New grad working on marketing analytics pipelines. Built an Airflow + dbt setup from scratch under guidance. Eager but still learning testing and deployment patterns.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c107",
+    "name": "Olusegun Adebayo",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "Node.js",
+      "Express",
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "AWS Lambda",
+      "Stripe",
+      "Tailwind"
+    ],
+    "experience_years": 6,
+    "location": "Remote (EU)",
+    "summary": "Olu has been the second engineer at three early-stage startups, comfortable shipping end-to-end. Built a subscription billing system on Stripe handling $4M ARR. Hasn't worked with strongly-typed backend languages.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c108",
+    "name": "Sara Kowalski",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "User Flows",
+      "FigJam",
+      "Auto Layout",
+      "Webflow",
+      "Notion"
+    ],
+    "experience_years": 7,
+    "location": "Berlin, Germany",
+    "summary": "Sara owns the design system at a mid-sized fintech and partners closely with frontend on token pipelines. Strong systems thinker; less interested in marketing or brand work.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c109",
+    "name": "Rahul Deshpande",
+    "title": "Android Engineer",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Coroutines",
+      "Hilt",
+      "Room",
+      "Retrofit",
+      "Firebase",
+      "Espresso"
+    ],
+    "experience_years": 8,
+    "location": "Mumbai, India",
+    "summary": "Rahul leads Android at a consumer audio app with 30M MAU. Drove the Compose migration and reduced cold start by 40%. No iOS experience and prefers to keep it that way.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c110",
+    "name": "Emma Carter",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "XGBoost",
+      "SQL",
+      "Pandas",
+      "Jupyter",
+      "Tableau",
+      "A/B Testing"
+    ],
+    "experience_years": 3,
+    "location": "NYC, United States",
+    "summary": "Emma works on growth experimentation at a media company, designing tests and building churn models. Solid statistical foundation; minimal exposure to deep learning or production ML.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c111",
+    "name": "Vikram Subramanian",
+    "title": "Principal Security Engineer",
+    "skills": [
+      "AWS Security",
+      "IAM",
+      "Terraform",
+      "Python",
+      "Threat Modeling",
+      "SAST/DAST",
+      "Vault",
+      "Burp Suite",
+      "OAuth"
+    ],
+    "experience_years": 17,
+    "location": "Bengaluru, India",
+    "summary": "Vikram has led security at two public companies, building zero-trust architectures and incident response playbooks. Equally comfortable in policy and in code. Currently advisory at a Series B.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c112",
+    "name": "Hannah Schmidt",
+    "title": "UX Researcher",
+    "skills": [
+      "User Interviews",
+      "Usability Testing",
+      "Dovetail",
+      "Survey Design",
+      "Affinity Mapping",
+      "Maze",
+      "Mixed Methods",
+      "Figma"
+    ],
+    "experience_years": 5,
+    "location": "Remote (EU)",
+    "summary": "Hannah runs discovery and evaluative research for a B2B analytics product. She built the team's research repository in Dovetail. Limited quantitative depth beyond basic survey stats.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c113",
+    "name": "Tomoko Yamada",
+    "title": "iOS Engineer",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Core Data",
+      "XCTest",
+      "Fastlane",
+      "CloudKit"
+    ],
+    "experience_years": 6,
+    "location": "Toronto, Canada",
+    "summary": "Tomoko shipped a meditation app featured by Apple twice. Strong SwiftUI advocate, owns the app's accessibility story. Hasn't touched UIKit-heavy legacy codebases in years.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c114",
+    "name": "Marcus Johnson",
+    "title": "Senior DevOps Engineer",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Bash",
+      "Datadog"
+    ],
+    "experience_years": 11,
+    "location": "Austin, United States",
+    "summary": "Marcus modernized CI/CD at a healthtech, bringing deploy times from 45 minutes to 6. Pragmatic, prefers boring technology. Less hands-on with GCP or Azure.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c115",
+    "name": "Nisha Kapoor",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "SQL",
+      "Mixpanel",
+      "Jira",
+      "Stakeholder Management",
+      "A/B Testing",
+      "Figma",
+      "User Interviews"
+    ],
+    "experience_years": 7,
+    "location": "Delhi NCR, India",
+    "summary": "Nisha owns the merchant onboarding product at a payments company, running a pod of 8. Cut KYC drop-off by 22% in two quarters. Strong analytical PM, less experienced in 0-to-1.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c116",
+    "name": "Lucas Pereira",
+    "title": "Backend Engineer (Go)",
+    "skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Redis",
+      "Kafka",
+      "Docker",
+      "Protobuf",
+      "Linux"
+    ],
+    "experience_years": 4,
+    "location": "Remote (EU)",
+    "summary": "Lucas builds high-throughput ad bidding services in Go, handling 200k QPS. Comfortable with profiling and pprof. Has never worked in a typed object-oriented language professionally.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c117",
+    "name": "Kavya Nair",
+    "title": "QA Automation Engineer",
+    "skills": [
+      "Selenium",
+      "Playwright",
+      "Python",
+      "pytest",
+      "Postman",
+      "Jenkins",
+      "Cucumber",
+      "JMeter"
+    ],
+    "experience_years": 5,
+    "location": "Bengaluru, India",
+    "summary": "Kavya owns end-to-end test automation for a logistics platform, reducing regression cycle from 3 days to 4 hours. Pragmatic about flaky tests. Limited experience with mobile automation.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c118",
+    "name": "Benjamin Wright",
+    "title": "Staff Software Engineer",
+    "skills": [
+      "Java",
+      "Spring",
+      "Kafka",
+      "Cassandra",
+      "AWS",
+      "System Design",
+      "Mentoring",
+      "Distributed Systems"
+    ],
+    "experience_years": 15,
+    "location": "San Francisco, United States",
+    "summary": "Ben has been a tech lead on three major rewrites, most recently a billing platform handling $2B/year. Quiet leadership style, writes excellent design docs. Not chasing titles.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c119",
+    "name": "Zara Hassan",
+    "title": "Junior Frontend Engineer",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Git",
+      "Jest"
+    ],
+    "experience_years": 2,
+    "location": "Remote (India)",
+    "summary": "Zara joined a startup straight out of a bootcamp and has shipped a customer dashboard solo. Still picking up TypeScript and testing best practices. Hungry to learn.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c120",
+    "name": "Henrik Larsen",
+    "title": "Data Engineer",
+    "skills": [
+      "Spark",
+      "Scala",
+      "Airflow",
+      "Databricks",
+      "Delta Lake",
+      "Kafka",
+      "AWS",
+      "Python"
+    ],
+    "experience_years": 9,
+    "location": "London, United Kingdom",
+    "summary": "Henrik built the lakehouse at a streaming media company processing 8TB daily. Strong in Spark internals. Less interested in dashboarding or BI work.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c121",
+    "name": "Saanvi Bhat",
+    "title": "ML Engineer",
+    "skills": [
+      "TensorFlow",
+      "Keras",
+      "Python",
+      "SQL",
+      "Airflow",
+      "GCP",
+      "BigQuery",
+      "MLflow"
+    ],
+    "experience_years": 4,
+    "location": "Bengaluru, India",
+    "summary": "Saanvi works on recommendation systems at an OTT platform, owning the candidate generation pipeline. Familiar with classical retrieval but limited LLM experience.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c122",
+    "name": "Carlos Ramirez",
+    "title": "Senior Full-stack Engineer",
+    "skills": [
+      "Ruby on Rails",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Sidekiq",
+      "Heroku",
+      "RSpec",
+      "Stripe"
+    ],
+    "experience_years": 10,
+    "location": "Remote (EU)",
+    "summary": "Carlos has been a Rails generalist for a decade across three startups. Pragmatic, ships features fast. Skeptical of microservices and says so loudly.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c123",
+    "name": "Ji-woo Park",
+    "title": "Frontend Engineer",
+    "skills": [
+      "Vue.js",
+      "Nuxt",
+      "TypeScript",
+      "Pinia",
+      "Cypress",
+      "SCSS",
+      "Storybook"
+    ],
+    "experience_years": 3,
+    "location": "Singapore",
+    "summary": "Ji-woo specializes in Vue ecosystems and rebuilt a CMS frontend that's now used by 200 internal editors. Limited React experience.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c124",
+    "name": "Rebecca Cohen",
+    "title": "Engineering Manager",
+    "skills": [
+      "Python",
+      "Team Leadership",
+      "Hiring",
+      "Coaching",
+      "Roadmapping",
+      "System Design",
+      "Agile",
+      "Performance Reviews"
+    ],
+    "experience_years": 12,
+    "location": "NYC, United States",
+    "summary": "Rebecca manages a platform team of 9 at a healthtech unicorn. Came up through Python backend. Loves career conversations and one-on-ones; tolerates roadmap meetings.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c125",
+    "name": "Arjun Reddy",
+    "title": "Senior Mobile Engineer (iOS)",
+    "skills": [
+      "Swift",
+      "UIKit",
+      "SwiftUI",
+      "Combine",
+      "Realm",
+      "CI/CD",
+      "Objective-C",
+      "Instruments"
+    ],
+    "experience_years": 11,
+    "location": "Hyderabad, India",
+    "summary": "Arjun has been building iOS apps since iOS 6. Currently leading mobile at a banking app with stringent security requirements. Comfortable in legacy Objective-C, less so with backend systems.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c126",
+    "name": "Lena Fischer",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "User Research",
+      "Prototyping",
+      "Design Tokens",
+      "Webflow",
+      "Motion Design",
+      "Lottie"
+    ],
+    "experience_years": 4,
+    "location": "Berlin, Germany",
+    "summary": "Lena designs for a developer tools startup, balancing IC features and brand polish. Strong visual sensibility and motion chops. Newer to systematized accessibility work.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c127",
+    "name": "Ethan Walsh",
+    "title": "Security Engineer",
+    "skills": [
+      "Python",
+      "AWS",
+      "IAM",
+      "Splunk",
+      "Wireshark",
+      "Nmap",
+      "OWASP",
+      "Threat Modeling"
+    ],
+    "experience_years": 6,
+    "location": "Toronto, Canada",
+    "summary": "Ethan moved from pen-testing into product security at a B2B SaaS. Built the SAST integration into CI. Strong on AWS, weaker on Kubernetes-specific threat surfaces.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c128",
+    "name": "Divya Krishnan",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "R",
+      "PyMC",
+      "Bayesian Modeling",
+      "SQL",
+      "Pandas",
+      "Plotly",
+      "Causal Inference"
+    ],
+    "experience_years": 8,
+    "location": "Remote (India)",
+    "summary": "Divya focuses on causal inference and pricing experiments at a marketplace. Published two internal whitepapers on uplift modeling. Not interested in deep learning roles.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c129",
+    "name": "Sven Nilsson",
+    "title": "Backend Engineer (Java)",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "PostgreSQL",
+      "RabbitMQ",
+      "Maven",
+      "JUnit"
+    ],
+    "experience_years": 7,
+    "location": "Remote (EU)",
+    "summary": "Sven works on a public sector logistics platform with strict reliability SLAs. Comfortable in monoliths and modular monoliths. No cloud-native or container experience.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c130",
+    "name": "Fatima Al-Sayed",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Azure",
+      "Terraform",
+      "Bicep",
+      "GitHub Actions",
+      "Kubernetes",
+      "PowerShell",
+      "Helm"
+    ],
+    "experience_years": 5,
+    "location": "London, United Kingdom",
+    "summary": "Fatima runs platform engineering at a regulated insurance company, deeply embedded in Azure. Built a self-service Bicep template library used across 40 teams. Limited AWS exposure.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c131",
+    "name": "Karthik Venkatesh",
+    "title": "Senior Data Engineer",
+    "skills": [
+      "Python",
+      "Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "Kafka",
+      "Trino",
+      "Terraform"
+    ],
+    "experience_years": 9,
+    "location": "Bengaluru, India",
+    "summary": "Karthik built the data platform from scratch at a Series C edtech, now serving 60+ analysts. Migrated from Redshift to Snowflake without downtime. Cares deeply about data quality and lineage.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c132",
+    "name": "Isabel Moreno",
+    "title": "UX Researcher",
+    "skills": [
+      "Mixed Methods",
+      "SPSS",
+      "R",
+      "Survey Design",
+      "Ethnography",
+      "Dovetail",
+      "Stakeholder Communication"
+    ],
+    "experience_years": 10,
+    "location": "San Francisco, United States",
+    "summary": "Isabel leads research for a healthcare provider platform, partnering with clinicians. Strong quant-qual blend. Currently exploring service design areas.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c133",
+    "name": "Wei Zhang",
+    "title": "ML Engineer",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Triton",
+      "TensorRT",
+      "CUDA",
+      "ONNX",
+      "Kubernetes",
+      "FastAPI"
+    ],
+    "experience_years": 7,
+    "location": "San Francisco, United States",
+    "summary": "Wei specializes in inference optimization, taking a vision model from 80ms to 9ms p99 latency. Deep in CUDA kernels. Less interested in product or training pipeline work.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c134",
+    "name": "Aditi Sharma",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "SQL",
+      "Amplitude",
+      "User Interviews",
+      "Pricing",
+      "GTM",
+      "Notion",
+      "Jira"
+    ],
+    "experience_years": 4,
+    "location": "Delhi NCR, India",
+    "summary": "Aditi launched a self-serve tier at a B2B startup, getting from 0 to $400k ARR in eight months. Strong in growth and pricing experiments.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c135",
+    "name": "Patrick Murphy",
+    "title": "SDET",
+    "skills": [
+      "Java",
+      "Selenium",
+      "TestNG",
+      "REST Assured",
+      "Jenkins",
+      "Postman",
+      "Docker",
+      "Bash"
+    ],
+    "experience_years": 12,
+    "location": "Remote (EU)",
+    "summary": "Patrick has built test frameworks at three enterprises. Pragmatic about coverage vs speed. Mostly backend API testing; minimal UI work nowadays.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c136",
+    "name": "Neha Choudhary",
+    "title": "Senior Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Redux",
+      "Webpack",
+      "Module Federation",
+      "Cypress",
+      "Storybook"
+    ],
+    "experience_years": 8,
+    "location": "Pune, India",
+    "summary": "Neha leads frontend architecture for a multi-app SaaS, owning the micro-frontend strategy via Module Federation. Mentors three juniors actively. Avoids backend work by choice.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c137",
+    "name": "David Klein",
+    "title": "Backend Engineer (Python)",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "Redis",
+      "Pytest",
+      "Docker"
+    ],
+    "experience_years": 3,
+    "location": "Berlin, Germany",
+    "summary": "David works at a climate-tech startup building the carbon accounting backend. Strong FastAPI patterns, learning Kubernetes on the job. No cloud certifications but capable.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c138",
+    "name": "Yuki Tanaka",
+    "title": "Android Engineer",
+    "skills": [
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "Dagger",
+      "RxJava",
+      "Retrofit",
+      "Espresso"
+    ],
+    "experience_years": 6,
+    "location": "Singapore",
+    "summary": "Yuki maintains a 7-year-old Android codebase at a regional bank, slowly modernizing toward Compose. Patient with legacy code. Not chasing greenfield work.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c139",
+    "name": "Chioma Okeke",
+    "title": "Engineering Manager",
+    "skills": [
+      "Go",
+      "Team Leadership",
+      "Hiring",
+      "System Design",
+      "Coaching",
+      "Postgres",
+      "AWS"
+    ],
+    "experience_years": 11,
+    "location": "Remote (EU)",
+    "summary": "Chioma manages a distributed team of 7 across three time zones at a developer tools company. Former Go IC, still reviews PRs weekly. Strong written communicator.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c140",
+    "name": "Rishi Malhotra",
+    "title": "Junior Backend Engineer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Git",
+      "Postman"
+    ],
+    "experience_years": 1,
+    "location": "Bengaluru, India",
+    "summary": "Rishi joined a fintech as a fresher and is six months into shipping CRUD services. Solid Java fundamentals from college. No cloud or container exposure yet.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c141",
+    "name": "Sofia Bianchi",
+    "title": "Senior Product Designer",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "User Research",
+      "Workshop Facilitation",
+      "Variables",
+      "Tokens Studio"
+    ],
+    "experience_years": 9,
+    "location": "London, United Kingdom",
+    "summary": "Sofia leads design at a 40-person SaaS, owning everything from research to system. Drove a redesign that reduced support tickets 30%. Comfortable wearing many hats.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c142",
+    "name": "Michael Brennan",
+    "title": "Principal Data Engineer",
+    "skills": [
+      "Spark",
+      "Scala",
+      "Kafka",
+      "Airflow",
+      "AWS",
+      "Iceberg",
+      "Trino",
+      "Python",
+      "dbt"
+    ],
+    "experience_years": 18,
+    "location": "NYC, United States",
+    "summary": "Michael has been doing data infra since the Hadoop days. Currently a principal at a hedge fund, owning the lakehouse migration. Skeptical of vendor hype, opinionated about file formats.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c143",
+    "name": "Pooja Agarwal",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "SQL",
+      "MLflow",
+      "FastAPI",
+      "Docker",
+      "Pandas"
+    ],
+    "experience_years": 5,
+    "location": "Hyderabad, India",
+    "summary": "Pooja blends DS and ML engineering at a customer support startup, shipping NLP models for ticket routing. Comfortable taking models to production. Limited frontend or BI work.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c144",
+    "name": "Anders Holm",
+    "title": "SRE",
+    "skills": [
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "Go",
+      "Python",
+      "Linux",
+      "On-call"
+    ],
+    "experience_years": 7,
+    "location": "Remote (EU)",
+    "summary": "Anders does SRE for a payments company with strict uptime SLOs. Calm under incident pressure, writes thorough postmortems. Less interested in greenfield platform work.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c145",
+    "name": "Grace Adeyemi",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "TypeScript",
+      "Next.js",
+      "tRPC",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind",
+      "Vercel",
+      "Playwright"
+    ],
+    "experience_years": 4,
+    "location": "Remote (EU)",
+    "summary": "Grace is a T3-stack devotee who has shipped three indie SaaS products alongside her day job. Comfortable owning a product end-to-end. Smaller-team preference, dislikes large bureaucracies.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c146",
+    "name": "Hiroshi Sato",
+    "title": "Staff Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Performance Profiling",
+      "Web Vitals",
+      "Webpack",
+      "Babel",
+      "Service Workers",
+      "WebAssembly"
+    ],
+    "experience_years": 15,
+    "location": "Toronto, Canada",
+    "summary": "Hiroshi optimizes web performance for a global e-commerce platform, owning the Core Web Vitals roadmap. Knows browser internals deeply. Quiet, prefers writing over meetings.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c147",
+    "name": "Riya Banerjee",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "User Interviews",
+      "Figma",
+      "SQL",
+      "Looker",
+      "Stakeholder Management",
+      "Discovery",
+      "Notion"
+    ],
+    "experience_years": 2,
+    "location": "Mumbai, India",
+    "summary": "Riya transitioned from consulting into PM at a B2B vertical SaaS. Strong at stakeholder communication; still building product intuition and analytical depth.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c148",
+    "name": "Tom Whitaker",
+    "title": "Backend Engineer (Go)",
+    "skills": [
+      "Go",
+      "Postgres",
+      "gRPC",
+      "Kafka",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Prometheus"
+    ],
+    "experience_years": 6,
+    "location": "Austin, United States",
+    "summary": "Tom builds order management services for a logistics scaleup in Go. Owned a tricky transactional outbox migration. Has avoided JVM languages his whole career and intends to keep doing so.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c149",
+    "name": "Larissa Schneider",
+    "title": "Security Engineer",
+    "skills": [
+      "Kubernetes Security",
+      "Falco",
+      "OPA",
+      "Terraform",
+      "AWS",
+      "Python",
+      "Threat Modeling",
+      "CIS Benchmarks"
+    ],
+    "experience_years": 8,
+    "location": "Berlin, Germany",
+    "summary": "Larissa specializes in cloud-native security, embedding policies as code at a fintech. Speaks at meetups about supply-chain security. Less interested in compliance-heavy environments.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c150",
+    "name": "Sandeep Joshi",
+    "title": "Senior Engineering Manager",
+    "skills": [
+      "Team Leadership",
+      "System Design",
+      "Hiring",
+      "Performance Management",
+      "Java",
+      "AWS",
+      "Agile",
+      "Cross-functional Collaboration"
+    ],
+    "experience_years": 14,
+    "location": "Bengaluru, India",
+    "summary": "Sandeep manages two teams (16 engineers) at a logistics unicorn, having grown from senior engineer over six years internally. Strong operator, with a track record of promoting ICs to senior. Limited recent IC coding.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c151",
+    "name": "Aarav Khanna",
+    "title": "Senior Backend Engineer",
+    "skills": [
+      "Python",
+      "Django",
+      "DRF",
+      "PostgreSQL",
+      "Redis",
+      "Celery",
+      "Docker",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "experience_years": 9,
+    "location": "Bengaluru, India",
+    "summary": "Aarav has spent the last six years scaling a fintech ledger system handling 12M daily transactions. He led the migration from monolithic Django to a service-oriented architecture and reduced p99 latency by 60%. Strong on distributed systems but has limited cloud experience outside GCP.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c152",
+    "name": "Marta Kowalski",
+    "title": "Frontend Engineer",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Storybook",
+      "Jest",
+      "Playwright"
+    ],
+    "experience_years": 4,
+    "location": "Berlin, Germany",
+    "summary": "Marta builds component libraries and design systems at a B2B SaaS company. Recently shipped a multi-tenant theming engine adopted across five product lines.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c153",
+    "name": "Daniel Osei",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "Ansible",
+      "Jenkins",
+      "Prometheus",
+      "Grafana",
+      "Bash",
+      "Python"
+    ],
+    "experience_years": 6,
+    "location": "Remote (EU)",
+    "summary": "Daniel automated infra provisioning for a logistics platform across three AWS regions. Heavy on AWS and Terraform; has not worked with Kubernetes in production.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c154",
+    "name": "Priya Subramanian",
+    "title": "ML Engineer",
+    "skills": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "LangChain",
+      "vLLM",
+      "Ray",
+      "FastAPI",
+      "CUDA",
+      "Weights & Biases"
+    ],
+    "experience_years": 5,
+    "location": "Hyderabad, India",
+    "summary": "Priya fine-tunes and serves LLMs for an enterprise search product. She built a retrieval-augmented pipeline reducing hallucination rates by 35% on internal benchmarks.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c155",
+    "name": "Kevin O'Brien",
+    "title": "Engineering Manager",
+    "skills": [
+      "Team Leadership",
+      "Agile",
+      "Roadmapping",
+      "Java",
+      "Spring Boot",
+      "AWS",
+      "Hiring",
+      "Performance Reviews"
+    ],
+    "experience_years": 13,
+    "location": "Dublin, Ireland",
+    "summary": "Kevin manages two backend squads (14 engineers) at a payments company. Came up through Java/Spring and stays close to architecture reviews despite limited hands-on coding now.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c156",
+    "name": "Yuki Tanaka",
+    "title": "iOS Engineer",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Xcode",
+      "CoreData",
+      "RxSwift",
+      "Fastlane"
+    ],
+    "experience_years": 7,
+    "location": "Singapore",
+    "summary": "Yuki has shipped four consumer apps with combined 20M downloads. Specializes in offline-first architectures and complex animations.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c157",
+    "name": "Sneha Reddy",
+    "title": "Data Engineer",
+    "skills": [
+      "Apache Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "Python",
+      "SQL",
+      "Kafka",
+      "AWS Glue"
+    ],
+    "experience_years": 4,
+    "location": "Pune, India",
+    "summary": "Sneha owns the analytics data platform at a healthcare startup. She rebuilt ETL pipelines from cron-driven scripts into Airflow DAGs cutting batch runtime from 9 hours to 90 minutes.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c158",
+    "name": "Liam Schneider",
+    "title": "Security Engineer",
+    "skills": [
+      "Burp Suite",
+      "OWASP",
+      "Python",
+      "AWS IAM",
+      "Terraform",
+      "SAST",
+      "DAST",
+      "Threat Modeling"
+    ],
+    "experience_years": 8,
+    "location": "Berlin, Germany",
+    "summary": "Application security lead. Built the AppSec program from scratch at a mid-size SaaS firm and led SOC 2 Type II certification.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c159",
+    "name": "Ananya Bose",
+    "title": "Product Designer",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "User Research",
+      "Prototyping",
+      "Webflow",
+      "Framer",
+      "Accessibility"
+    ],
+    "experience_years": 5,
+    "location": "Mumbai, India",
+    "summary": "Ananya designs B2B dashboards and has rebuilt the design system at her current company. Strong on visual craft, less experience with quantitative usability testing.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c160",
+    "name": "Carlos Mendes",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "Node.js",
+      "Express",
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "PostgreSQL",
+      "AWS Lambda",
+      "Serverless Framework"
+    ],
+    "experience_years": 3,
+    "location": "Lisbon, Portugal",
+    "summary": "Carlos works at a small agency building MVPs for early-stage startups. Generalist who ships fast.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c161",
+    "name": "Rohan Mehta",
+    "title": "Staff Backend Engineer",
+    "skills": [
+      "Go",
+      "gRPC",
+      "Kafka",
+      "PostgreSQL",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Distributed Systems"
+    ],
+    "experience_years": 16,
+    "location": "San Francisco, USA",
+    "summary": "Rohan is a staff engineer at a data infrastructure company where he designed the multi-region replication layer. Previously at two unicorn startups.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c162",
+    "name": "Emma Larsson",
+    "title": "UX Researcher",
+    "skills": [
+      "Qualitative Research",
+      "Usability Testing",
+      "Dovetail",
+      "Survey Design",
+      "Stakeholder Interviews",
+      "Figma",
+      "Miro"
+    ],
+    "experience_years": 6,
+    "location": "Stockholm, Sweden",
+    "summary": "Emma leads research for an enterprise productivity tool. She established a research repository that doubled team-wide insight reuse.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c163",
+    "name": "Vikram Iyer",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "XGBoost",
+      "SQL",
+      "Pandas",
+      "Tableau",
+      "A/B Testing",
+      "Causal Inference"
+    ],
+    "experience_years": 7,
+    "location": "Bengaluru, India",
+    "summary": "Vikram works on growth experimentation at an e-commerce marketplace. Strong analytics chops; limited deep learning experience.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c164",
+    "name": "Hannah Cohen",
+    "title": "QA Automation Engineer",
+    "skills": [
+      "Selenium",
+      "Cypress",
+      "Playwright",
+      "TypeScript",
+      "Jenkins",
+      "Postman",
+      "JMeter"
+    ],
+    "experience_years": 2,
+    "location": "Tel Aviv, Israel",
+    "summary": "Hannah builds end-to-end test suites for a fintech web app. Recently introduced visual regression testing.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c165",
+    "name": "Ahmed Hassan",
+    "title": "Android Engineer",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Coroutines",
+      "Dagger Hilt",
+      "Retrofit",
+      "Room",
+      "Firebase"
+    ],
+    "experience_years": 5,
+    "location": "Cairo, Egypt",
+    "summary": "Ahmed has shipped two banking apps with strict security requirements. Migrated a legacy XML-based UI to Compose over six months.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c166",
+    "name": "Sophie Martin",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "JIRA",
+      "SQL",
+      "Amplitude",
+      "User Interviews",
+      "OKRs",
+      "Figma",
+      "Notion"
+    ],
+    "experience_years": 8,
+    "location": "Paris, France",
+    "summary": "Sophie has launched payments features at two scaleups. Strong analytical PM who writes her own SQL.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c167",
+    "name": "Arjun Pillai",
+    "title": "Junior Frontend Engineer",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Git",
+      "Vite"
+    ],
+    "experience_years": 1,
+    "location": "Kochi, India",
+    "summary": "Arjun graduated last year and joined an EdTech startup. Has shipped two production features and is picking up TypeScript.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c168",
+    "name": "Olivia Wright",
+    "title": "Senior SRE",
+    "skills": [
+      "Kubernetes",
+      "Istio",
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "GCP",
+      "Go",
+      "Python",
+      "Incident Management"
+    ],
+    "experience_years": 10,
+    "location": "London, UK",
+    "summary": "Olivia runs reliability for a global streaming service. Owns SLO definition and chaos engineering practice.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c169",
+    "name": "Ravi Shankar",
+    "title": "Backend Engineer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "MySQL",
+      "Redis",
+      "Microservices",
+      "Maven"
+    ],
+    "experience_years": 6,
+    "location": "Chennai, India",
+    "summary": "Ravi builds order management services for a retail platform. Has not worked with cloud-native deployment beyond on-prem Kubernetes.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c170",
+    "name": "Jessica Park",
+    "title": "ML Engineer",
+    "skills": [
+      "TensorFlow",
+      "Keras",
+      "Python",
+      "Kubeflow",
+      "BigQuery",
+      "GCP",
+      "Vertex AI",
+      "MLflow"
+    ],
+    "experience_years": 4,
+    "location": "Toronto, Canada",
+    "summary": "Jessica builds recommendation models for a media company. Recently led the migration from batch scoring to real-time inference.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c171",
+    "name": "Tobias Fischer",
+    "title": "Principal Engineer",
+    "skills": [
+      "C++",
+      "Rust",
+      "Linux",
+      "Distributed Systems",
+      "Kafka",
+      "PostgreSQL",
+      "Architecture"
+    ],
+    "experience_years": 19,
+    "location": "Munich, Germany",
+    "summary": "Tobias has spent two decades in systems engineering, most recently leading the storage engine team at a database company.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c172",
+    "name": "Meera Krishnan",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "Ruby",
+      "Ruby on Rails",
+      "React",
+      "PostgreSQL",
+      "Sidekiq",
+      "Heroku",
+      "RSpec"
+    ],
+    "experience_years": 5,
+    "location": "Remote (India)",
+    "summary": "Meera is a Rails generalist working remotely for a US-based HR tech company. Comfortable owning features end to end including the React frontend.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c173",
+    "name": "Nathan Brooks",
+    "title": "Data Engineer",
+    "skills": [
+      "Python",
+      "Airflow",
+      "dbt",
+      "BigQuery",
+      "Looker",
+      "Fivetran",
+      "SQL"
+    ],
+    "experience_years": 3,
+    "location": "Austin, USA",
+    "summary": "Nathan owns the modern data stack at a Series B startup. Self-taught engineer who came from a data analyst background.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c174",
+    "name": "Isabella Rossi",
+    "title": "Senior Product Designer",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Design Systems",
+      "Prototyping",
+      "Motion Design",
+      "After Effects",
+      "User Research"
+    ],
+    "experience_years": 9,
+    "location": "Milan, Italy",
+    "summary": "Isabella leads design for a mobility super-app. Champions accessibility and has run two design ops initiatives company-wide.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c175",
+    "name": "Karthik Venkatesh",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Kubernetes",
+      "Helm",
+      "ArgoCD",
+      "Terraform",
+      "AWS",
+      "GitHub Actions",
+      "Vault",
+      "Datadog"
+    ],
+    "experience_years": 7,
+    "location": "Bengaluru, India",
+    "summary": "Karthik built the GitOps platform at a fintech and onboarded 40+ services. Strong Kubernetes operator with limited security tooling depth.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c176",
+    "name": "Lena Hoffmann",
+    "title": "Engineering Manager",
+    "skills": [
+      "Team Leadership",
+      "Coaching",
+      "Python",
+      "Django",
+      "Roadmapping",
+      "Agile",
+      "Hiring"
+    ],
+    "experience_years": 11,
+    "location": "Hamburg, Germany",
+    "summary": "Lena manages a platform team of nine engineers. Background in Python backend; deliberately keeps 20% IC time on tooling.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c177",
+    "name": "Diego Hernandez",
+    "title": "Backend Engineer",
+    "skills": [
+      "Go",
+      "Gin",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "RabbitMQ",
+      "gRPC"
+    ],
+    "experience_years": 4,
+    "location": "Mexico City, Mexico",
+    "summary": "Diego rewrote a Node.js monolith into Go microservices for a logistics startup, cutting infrastructure costs by 40%.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c178",
+    "name": "Priti Joshi",
+    "title": "QA Engineer",
+    "skills": [
+      "Manual Testing",
+      "Selenium",
+      "Postman",
+      "JIRA",
+      "TestRail",
+      "SQL"
+    ],
+    "experience_years": 3,
+    "location": "Delhi NCR, India",
+    "summary": "Priti tests web and mobile apps for a healthcare SaaS. Limited automation experience but strong at exploratory and regression testing.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c179",
+    "name": "Jonathan Wright",
+    "title": "Staff ML Engineer",
+    "skills": [
+      "PyTorch",
+      "JAX",
+      "Distributed Training",
+      "CUDA",
+      "Triton",
+      "Ray",
+      "Kubernetes",
+      "Python"
+    ],
+    "experience_years": 15,
+    "location": "San Francisco, USA",
+    "summary": "Jonathan leads training infrastructure for a foundation model lab. Previously at two large tech companies working on recsys at scale.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c180",
+    "name": "Aisha Bello",
+    "title": "Frontend Engineer",
+    "skills": [
+      "Vue.js",
+      "Nuxt",
+      "TypeScript",
+      "Pinia",
+      "Vite",
+      "Tailwind CSS",
+      "Cypress"
+    ],
+    "experience_years": 4,
+    "location": "Lagos, Nigeria",
+    "summary": "Aisha is a Vue specialist working at a pan-African e-commerce platform. Recently led a frontend rewrite from Vue 2 to Vue 3.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c181",
+    "name": "Mark Sullivan",
+    "title": "Senior Security Engineer",
+    "skills": [
+      "Splunk",
+      "SIEM",
+      "Incident Response",
+      "Python",
+      "AWS",
+      "Crowdstrike",
+      "SOC2",
+      "Zero Trust"
+    ],
+    "experience_years": 10,
+    "location": "NYC, USA",
+    "summary": "Mark runs the detection and response team at a financial services firm. Strong on blue team operations.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c182",
+    "name": "Riya Patel",
+    "title": "Product Manager",
+    "skills": [
+      "Roadmapping",
+      "Mixpanel",
+      "SQL",
+      "User Research",
+      "Wireframing",
+      "JIRA",
+      "Notion"
+    ],
+    "experience_years": 3,
+    "location": "Ahmedabad, India",
+    "summary": "Riya is an associate PM at a B2C health app working on subscription growth. Came from a consulting background.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c183",
+    "name": "Henrik Larsen",
+    "title": "iOS Engineer",
+    "skills": [
+      "Swift",
+      "Objective-C",
+      "UIKit",
+      "SwiftUI",
+      "XCTest",
+      "Fastlane",
+      "Firebase"
+    ],
+    "experience_years": 11,
+    "location": "Copenhagen, Denmark",
+    "summary": "Henrik has been writing iOS code since iOS 5. Currently tech lead for a banking app team. Has never worked outside Apple ecosystem.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c184",
+    "name": "Neha Agarwal",
+    "title": "Data Scientist",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "NLP",
+      "spaCy",
+      "Transformers",
+      "SQL",
+      "MLflow",
+      "Airflow"
+    ],
+    "experience_years": 4,
+    "location": "Gurgaon, India",
+    "summary": "Neha builds NLP models for contract analysis at a legal tech company. Recently shipped a clause classifier achieving 94% F1.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c185",
+    "name": "Christopher Lee",
+    "title": "Full-stack Engineer",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "Prisma",
+      "GraphQL",
+      "AWS"
+    ],
+    "experience_years": 6,
+    "location": "Seoul, South Korea",
+    "summary": "Christopher works at a gaming platform building creator monetization features. Owns features front to back including infrastructure.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c186",
+    "name": "Fatima Al-Rashid",
+    "title": "Backend Engineer",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Pytest"
+    ],
+    "experience_years": 2,
+    "location": "Dubai, UAE",
+    "summary": "Fatima joined a logistics tech company two years ago and now owns the customer notifications service. Eager to expand into infra.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c187",
+    "name": "David Klein",
+    "title": "Data Engineer",
+    "skills": [
+      "Scala",
+      "Apache Spark",
+      "Kafka",
+      "Flink",
+      "Airflow",
+      "AWS EMR",
+      "Delta Lake"
+    ],
+    "experience_years": 9,
+    "location": "Amsterdam, Netherlands",
+    "summary": "David architects streaming data platforms for a global ad-tech firm. Veteran Scala/Spark engineer who recently introduced Flink for sub-second analytics.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c188",
+    "name": "Sanjay Gupta",
+    "title": "Engineering Manager",
+    "skills": [
+      "Leadership",
+      "Java",
+      "Microservices",
+      "AWS",
+      "Kafka",
+      "Hiring",
+      "Architecture Reviews"
+    ],
+    "experience_years": 14,
+    "location": "Hyderabad, India",
+    "summary": "Sanjay manages three teams totaling 22 engineers at a global SaaS company's India center. Promoted into management five years ago.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c189",
+    "name": "Clara Dubois",
+    "title": "UX Researcher",
+    "skills": [
+      "Mixed Methods Research",
+      "UserTesting",
+      "Dovetail",
+      "Survey Design",
+      "Statistics",
+      "R",
+      "Figma"
+    ],
+    "experience_years": 3,
+    "location": "Remote (EU)",
+    "summary": "Clara conducts research for a remote-first dev tools company. Combines qualitative depth with quantitative rigor.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c190",
+    "name": "Akash Nair",
+    "title": "Mobile Engineer",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Redux",
+      "Expo",
+      "iOS",
+      "Android",
+      "Detox"
+    ],
+    "experience_years": 5,
+    "location": "Remote (India)",
+    "summary": "Akash has built four cross-platform apps with React Native. Lately advocating for native modules where RN falls short on performance.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c191",
+    "name": "Grace Thompson",
+    "title": "Junior Data Scientist",
+    "skills": [
+      "Python",
+      "Pandas",
+      "scikit-learn",
+      "SQL",
+      "Tableau",
+      "Jupyter"
+    ],
+    "experience_years": 1,
+    "location": "London, UK",
+    "summary": "Grace finished a data science master's last year. Currently working on customer churn models at a subscription business.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c192",
+    "name": "Thomas Müller",
+    "title": "Principal SRE",
+    "skills": [
+      "Kubernetes",
+      "Linux",
+      "Go",
+      "eBPF",
+      "Prometheus",
+      "Terraform",
+      "Chaos Engineering"
+    ],
+    "experience_years": 17,
+    "location": "Zurich, Switzerland",
+    "summary": "Thomas is principal SRE at a global trading platform. Authored internal reliability guidelines now used by 200+ engineers.",
+    "hidden_interest_profile": "not_looking"
+  },
+  {
+    "id": "c193",
+    "name": "Bhavna Shah",
+    "title": "Frontend Engineer",
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "NgRx",
+      "Karma",
+      "Sass",
+      "Webpack"
+    ],
+    "experience_years": 6,
+    "location": "Pune, India",
+    "summary": "Bhavna specializes in enterprise Angular applications. Strong on reactive patterns; never adopted React despite industry trend.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c194",
+    "name": "Lucas Pereira",
+    "title": "DevOps Engineer",
+    "skills": [
+      "Azure",
+      "Terraform",
+      "Bicep",
+      "Azure DevOps",
+      "PowerShell",
+      "Kubernetes",
+      "GitHub Actions"
+    ],
+    "experience_years": 4,
+    "location": "São Paulo, Brazil",
+    "summary": "Lucas is an Azure-focused DevOps engineer at a global insurance company. Limited exposure to AWS or GCP.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c195",
+    "name": "Wei Chen",
+    "title": "ML Engineer",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "ONNX",
+      "TensorRT",
+      "C++",
+      "Computer Vision",
+      "OpenCV",
+      "Docker"
+    ],
+    "experience_years": 8,
+    "location": "Singapore",
+    "summary": "Wei optimizes computer vision models for edge deployment in retail analytics hardware. Strong on inference optimization, less on training pipelines.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c196",
+    "name": "Elena Petrov",
+    "title": "Senior Product Designer",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "User Research",
+      "HTML",
+      "CSS",
+      "ProtoPie"
+    ],
+    "experience_years": 7,
+    "location": "Lisbon, Portugal",
+    "summary": "Elena leads design for a developer tools startup. Designs and codes prototypes herself, blurring the line with frontend.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c197",
+    "name": "Manish Kapoor",
+    "title": "Backend Engineer",
+    "skills": [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Jest"
+    ],
+    "experience_years": 3,
+    "location": "Delhi NCR, India",
+    "summary": "Manish builds APIs for a social commerce platform. Self-taught engineer who switched from a non-CS background.",
+    "hidden_interest_profile": "actively_looking"
+  },
+  {
+    "id": "c198",
+    "name": "Rachel Goldberg",
+    "title": "Senior Full-stack Engineer",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "tRPC",
+      "PostgreSQL",
+      "Prisma",
+      "Vercel"
+    ],
+    "experience_years": 8,
+    "location": "NYC, USA",
+    "summary": "Rachel is a senior IC at a Series C dev tools startup. Heavy TypeScript ecosystem expertise; ships features end to end weekly.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c199",
+    "name": "Olumide Adeyemi",
+    "title": "SDET",
+    "skills": [
+      "Java",
+      "Selenium",
+      "TestNG",
+      "RestAssured",
+      "Jenkins",
+      "Cucumber",
+      "Appium"
+    ],
+    "experience_years": 5,
+    "location": "Remote (EU)",
+    "summary": "Olumide owns automation strategy for a fintech with web and mobile apps. Built the BDD framework currently used by four teams.",
+    "hidden_interest_profile": "passive"
+  },
+  {
+    "id": "c200",
+    "name": "Catherine Wang",
+    "title": "Product Manager",
+    "skills": [
+      "B2B SaaS",
+      "Roadmapping",
+      "SQL",
+      "Looker",
+      "User Interviews",
+      "Pricing",
+      "Go-to-Market"
+    ],
+    "experience_years": 10,
+    "location": "San Francisco, USA",
+    "summary": "Catherine leads product for the platform team at a public SaaS company. Previously launched two new product lines from zero to one.",
+    "hidden_interest_profile": "not_looking"
+  }
+]
