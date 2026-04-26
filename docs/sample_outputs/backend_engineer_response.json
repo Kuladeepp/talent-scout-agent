@@ -1,0 +1,1045 @@
+{
+  "jd": {
+    "role": "Backend Engineer",
+    "skills_required": [
+      "PostgreSQL",
+      "Django",
+      "Python",
+      "Redis",
+      "AWS",
+      "GCP"
+    ],
+    "skills_nice": [
+      "Kafka"
+    ],
+    "experience_min": 5,
+    "experience_max": 8,
+    "location": "Bengaluru, India hybrid",
+    "must_haves": [],
+    "soft_skills": []
+  },
+  "ranked": [
+    {
+      "candidate_id": "c001",
+      "name": "Aarav Sharma",
+      "title": "Senior Backend Engineer",
+      "match_score": 93,
+      "interest_score": 68,
+      "final_score": 83.0,
+      "match_reasoning": "Fast fit estimate: Aarav Sharma aligns on PostgreSQL, Django, Python, Redis; gap: GCP. Experience fit is 8 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Open but cautious; needs a concise follow-up on role scope and flexibility."
+    },
+    {
+      "candidate_id": "c051",
+      "name": "Aishwarya Nair",
+      "title": "Senior Backend Engineer",
+      "match_score": 80,
+      "interest_score": 65,
+      "final_score": 74.0,
+      "match_reasoning": "Fast fit estimate: Aishwarya Nair aligns on PostgreSQL, Python, Redis, AWS; gap: Django. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Open but cautious; needs a concise follow-up on role scope and flexibility."
+    },
+    {
+      "candidate_id": "c151",
+      "name": "Aarav Khanna",
+      "title": "Senior Backend Engineer",
+      "match_score": 80,
+      "interest_score": 65,
+      "final_score": 74.0,
+      "match_reasoning": "Fast fit estimate: Aarav Khanna aligns on PostgreSQL, Django, Python, Redis; gap: AWS. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Open but cautious; needs a concise follow-up on role scope and flexibility."
+    },
+    {
+      "candidate_id": "c093",
+      "name": "Sneha Pillai",
+      "title": "Backend Engineer",
+      "match_score": 68,
+      "interest_score": 81,
+      "final_score": 73.2,
+      "match_reasoning": "Fast fit estimate: Sneha Pillai aligns on PostgreSQL, Django, Python, Redis; gap: AWS, GCP. Experience fit is 3 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Likely to advance if the recruiter confirms scope, process, and compensation."
+    },
+    {
+      "candidate_id": "c008",
+      "name": "Chiamaka Okafor",
+      "title": "Data Engineer",
+      "match_score": 68,
+      "interest_score": 75,
+      "final_score": 70.8,
+      "match_reasoning": "Fast fit estimate: Chiamaka Okafor aligns on Python, AWS, Kafka; gap: PostgreSQL, Django, Redis. Experience fit is 5 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Likely to advance if the recruiter confirms scope, process, and compensation."
+    },
+    {
+      "candidate_id": "c148",
+      "name": "Tom Whitaker",
+      "title": "Backend Engineer (Go)",
+      "match_score": 68,
+      "interest_score": 75,
+      "final_score": 70.8,
+      "match_reasoning": "Fast fit estimate: Tom Whitaker aligns on PostgreSQL, AWS, Kafka; gap: Django, Python, Redis. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Likely to advance if the recruiter confirms scope, process, and compensation."
+    },
+    {
+      "candidate_id": "c101",
+      "name": "Aarav Mehta",
+      "title": "Senior Backend Engineer",
+      "match_score": 73,
+      "interest_score": 63,
+      "final_score": 69.0,
+      "match_reasoning": "Fast fit estimate: Aarav Mehta aligns on PostgreSQL, Django, Python, Redis; gap: AWS, GCP. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Open but cautious; needs a concise follow-up on role scope and flexibility."
+    },
+    {
+      "candidate_id": "c098",
+      "name": "Rohan Mehta",
+      "title": "Full-stack Engineer",
+      "match_score": 66,
+      "interest_score": null,
+      "final_score": 66.0,
+      "match_reasoning": "Fast fit estimate: Rohan Mehta aligns on PostgreSQL, Redis, AWS; gap: Django, Python, GCP. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c116",
+      "name": "Lucas Pereira",
+      "title": "Backend Engineer (Go)",
+      "match_score": 65,
+      "interest_score": null,
+      "final_score": 65.0,
+      "match_reasoning": "Fast fit estimate: Lucas Pereira aligns on PostgreSQL, Redis, Kafka; gap: Django, Python, AWS. Experience fit is 4 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c047",
+      "name": "Jasmine Okonkwo",
+      "title": "Backend Engineer",
+      "match_score": 70,
+      "interest_score": 56,
+      "final_score": 64.4,
+      "match_reasoning": "Fast fit estimate: Jasmine Okonkwo aligns on PostgreSQL, Django, Python, AWS; gap: Redis, GCP. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Open but cautious; needs a concise follow-up on role scope and flexibility."
+    },
+    {
+      "candidate_id": "c161",
+      "name": "Rohan Mehta",
+      "title": "Staff Backend Engineer",
+      "match_score": 64,
+      "interest_score": null,
+      "final_score": 64.0,
+      "match_reasoning": "Fast fit estimate: Rohan Mehta aligns on PostgreSQL, AWS, Kafka; gap: Django, Python, Redis. Experience fit is 16 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c169",
+      "name": "Ravi Shankar",
+      "title": "Backend Engineer",
+      "match_score": 64,
+      "interest_score": null,
+      "final_score": 64.0,
+      "match_reasoning": "Fast fit estimate: Ravi Shankar aligns on Redis, Kafka; gap: PostgreSQL, Django, Python. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c082",
+      "name": "Benjamin Clarke",
+      "title": "Backend Engineer",
+      "match_score": 63,
+      "interest_score": null,
+      "final_score": 63.0,
+      "match_reasoning": "Fast fit estimate: Benjamin Clarke aligns on PostgreSQL, Python, Redis; gap: Django, AWS, GCP. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c043",
+      "name": "Benjamin Carter",
+      "title": "Backend Engineer (Go)",
+      "match_score": 68,
+      "interest_score": 55,
+      "final_score": 62.8,
+      "match_reasoning": "Fast fit estimate: Benjamin Carter aligns on PostgreSQL, Redis, Kafka; gap: Django, Python, AWS. Experience fit is 5 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Open but cautious; needs a concise follow-up on role scope and flexibility."
+    },
+    {
+      "candidate_id": "c022",
+      "name": "Mateusz Kowalski",
+      "title": "Backend Engineer (Java)",
+      "match_score": 61,
+      "interest_score": null,
+      "final_score": 61.0,
+      "match_reasoning": "Fast fit estimate: Mateusz Kowalski aligns on PostgreSQL, Kafka; gap: Django, Python, Redis. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c072",
+      "name": "Lukas Novák",
+      "title": "Backend Engineer",
+      "match_score": 61,
+      "interest_score": null,
+      "final_score": 61.0,
+      "match_reasoning": "Fast fit estimate: Lukas Novák aligns on PostgreSQL, Kafka; gap: Django, Python, Redis. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c035",
+      "name": "Kabir Singh",
+      "title": "Backend Engineer",
+      "match_score": 60,
+      "interest_score": null,
+      "final_score": 60.0,
+      "match_reasoning": "Fast fit estimate: Kabir Singh aligns on PostgreSQL, Python, Redis; gap: Django, AWS, GCP. Experience fit is 3 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c056",
+      "name": "Daniel Okonkwo",
+      "title": "Data Engineer",
+      "match_score": 60,
+      "interest_score": null,
+      "final_score": 60.0,
+      "match_reasoning": "Fast fit estimate: Daniel Okonkwo aligns on Python, AWS, Kafka; gap: PostgreSQL, Django, Redis. Experience fit is 5 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c157",
+      "name": "Sneha Reddy",
+      "title": "Data Engineer",
+      "match_score": 60,
+      "interest_score": null,
+      "final_score": 60.0,
+      "match_reasoning": "Fast fit estimate: Sneha Reddy aligns on Python, AWS, Kafka; gap: PostgreSQL, Django, Redis. Experience fit is 4 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": null
+    },
+    {
+      "candidate_id": "c014",
+      "name": "Tom Becker",
+      "title": "Senior Backend Engineer (Go)",
+      "match_score": 67,
+      "interest_score": 21,
+      "final_score": 48.6,
+      "match_reasoning": "Fast fit estimate: Tom Becker aligns on PostgreSQL, Redis, Kafka; gap: Django, Python, AWS. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "interest_summary": "Low near-term interest despite a possible skill match."
+    }
+  ],
+  "conversations": {
+    "c001": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Aarav, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+        }
+      ]
+    },
+    "c051": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Aishwarya, I noticed your background in PostgreSQL, Python, Redis and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Python, Redis. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+        }
+      ]
+    },
+    "c151": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Aarav, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+        }
+      ]
+    },
+    "c101": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Aarav, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+        }
+      ]
+    },
+    "c047": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Jasmine, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+        }
+      ]
+    },
+    "c008": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Chiamaka, I noticed your background in Python, AWS, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks for reaching out. This sounds relevant to what I am exploring, especially the Python, AWS, Kafka angle; I would like to understand the scope, team setup, and compensation."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across Python, AWS, Kafka. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I am open to a screening call this week if the role has meaningful ownership and the interview process is reasonably tight."
+        }
+      ]
+    },
+    "c043": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Benjamin, I noticed your background in PostgreSQL, Redis, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Redis, Kafka. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+        }
+      ]
+    },
+    "c093": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Sneha, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks for reaching out. This sounds relevant to what I am exploring, especially the PostgreSQL, Django, Python angle; I would like to understand the scope, team setup, and compensation."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I am open to a screening call this week if the role has meaningful ownership and the interview process is reasonably tight."
+        }
+      ]
+    },
+    "c148": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Tom, I noticed your background in PostgreSQL, AWS, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks for reaching out. This sounds relevant to what I am exploring, especially the PostgreSQL, AWS, Kafka angle; I would like to understand the scope, team setup, and compensation."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, AWS, Kafka. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "I am open to a screening call this week if the role has meaningful ownership and the interview process is reasonably tight."
+        }
+      ]
+    },
+    "c014": {
+      "turns": [
+        {
+          "speaker": "recruiter",
+          "text": "Hi Tom, I noticed your background in PostgreSQL, Redis, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+        },
+        {
+          "speaker": "candidate",
+          "text": "Thanks for thinking of me. I am fairly settled right now, so I would only consider something with unusually strong scope, flexibility, and compensation."
+        },
+        {
+          "speaker": "recruiter",
+          "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Redis, Kafka. I can share the team charter and compensation range before any formal interview."
+        },
+        {
+          "speaker": "candidate",
+          "text": "For now I will pass, but the role is worth keeping on my radar if the scope changes or the team needs a later conversation."
+        }
+      ]
+    }
+  },
+  "match_details": {
+    "c001": {
+      "candidate_id": "c001",
+      "match_score": 93,
+      "reasoning": "Fast fit estimate: Aarav Sharma aligns on PostgreSQL, Django, Python, Redis; gap: GCP. Experience fit is 8 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Django",
+        "Python",
+        "Redis",
+        "AWS",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "GCP"
+      ]
+    },
+    "c051": {
+      "candidate_id": "c051",
+      "match_score": 80,
+      "reasoning": "Fast fit estimate: Aishwarya Nair aligns on PostgreSQL, Python, Redis, AWS; gap: Django. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Python",
+        "Redis",
+        "AWS",
+        "GCP"
+      ],
+      "missing_skills": [
+        "Django"
+      ]
+    },
+    "c151": {
+      "candidate_id": "c151",
+      "match_score": 80,
+      "reasoning": "Fast fit estimate: Aarav Khanna aligns on PostgreSQL, Django, Python, Redis; gap: AWS. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Django",
+        "Python",
+        "Redis",
+        "GCP"
+      ],
+      "missing_skills": [
+        "AWS"
+      ]
+    },
+    "c101": {
+      "candidate_id": "c101",
+      "match_score": 73,
+      "reasoning": "Fast fit estimate: Aarav Mehta aligns on PostgreSQL, Django, Python, Redis; gap: AWS, GCP. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Django",
+        "Python",
+        "Redis"
+      ],
+      "missing_skills": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c047": {
+      "candidate_id": "c047",
+      "match_score": 70,
+      "reasoning": "Fast fit estimate: Jasmine Okonkwo aligns on PostgreSQL, Django, Python, AWS; gap: Redis, GCP. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Django",
+        "Python",
+        "AWS"
+      ],
+      "missing_skills": [
+        "Redis",
+        "GCP"
+      ]
+    },
+    "c008": {
+      "candidate_id": "c008",
+      "match_score": 68,
+      "reasoning": "Fast fit estimate: Chiamaka Okafor aligns on Python, AWS, Kafka; gap: PostgreSQL, Django, Redis. Experience fit is 5 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "PostgreSQL",
+        "Django",
+        "Redis",
+        "GCP"
+      ]
+    },
+    "c043": {
+      "candidate_id": "c043",
+      "match_score": 68,
+      "reasoning": "Fast fit estimate: Benjamin Carter aligns on PostgreSQL, Redis, Kafka; gap: Django, Python, AWS. Experience fit is 5 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c093": {
+      "candidate_id": "c093",
+      "match_score": 68,
+      "reasoning": "Fast fit estimate: Sneha Pillai aligns on PostgreSQL, Django, Python, Redis; gap: AWS, GCP. Experience fit is 3 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Django",
+        "Python",
+        "Redis"
+      ],
+      "missing_skills": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c148": {
+      "candidate_id": "c148",
+      "match_score": 68,
+      "reasoning": "Fast fit estimate: Tom Whitaker aligns on PostgreSQL, AWS, Kafka; gap: Django, Python, Redis. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "AWS",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "Redis",
+        "GCP"
+      ]
+    },
+    "c014": {
+      "candidate_id": "c014",
+      "match_score": 67,
+      "reasoning": "Fast fit estimate: Tom Becker aligns on PostgreSQL, Redis, Kafka; gap: Django, Python, AWS. Experience fit is 9 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c098": {
+      "candidate_id": "c098",
+      "match_score": 66,
+      "reasoning": "Fast fit estimate: Rohan Mehta aligns on PostgreSQL, Redis, AWS; gap: Django, Python, GCP. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "GCP"
+      ]
+    },
+    "c116": {
+      "candidate_id": "c116",
+      "match_score": 65,
+      "reasoning": "Fast fit estimate: Lucas Pereira aligns on PostgreSQL, Redis, Kafka; gap: Django, Python, AWS. Experience fit is 4 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c161": {
+      "candidate_id": "c161",
+      "match_score": 64,
+      "reasoning": "Fast fit estimate: Rohan Mehta aligns on PostgreSQL, AWS, Kafka; gap: Django, Python, Redis. Experience fit is 16 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "AWS",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "Redis",
+        "GCP"
+      ]
+    },
+    "c169": {
+      "candidate_id": "c169",
+      "match_score": 64,
+      "reasoning": "Fast fit estimate: Ravi Shankar aligns on Redis, Kafka; gap: PostgreSQL, Django, Python. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "Redis",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "PostgreSQL",
+        "Django",
+        "Python",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c082": {
+      "candidate_id": "c082",
+      "match_score": 63,
+      "reasoning": "Fast fit estimate: Benjamin Clarke aligns on PostgreSQL, Python, Redis; gap: Django, AWS, GCP. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Python",
+        "Redis"
+      ],
+      "missing_skills": [
+        "Django",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c022": {
+      "candidate_id": "c022",
+      "match_score": 61,
+      "reasoning": "Fast fit estimate: Mateusz Kowalski aligns on PostgreSQL, Kafka; gap: Django, Python, Redis. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "Redis",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c072": {
+      "candidate_id": "c072",
+      "match_score": 61,
+      "reasoning": "Fast fit estimate: Lukas Novák aligns on PostgreSQL, Kafka; gap: Django, Python, Redis. Experience fit is 6 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "Django",
+        "Python",
+        "Redis",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c035": {
+      "candidate_id": "c035",
+      "match_score": 60,
+      "reasoning": "Fast fit estimate: Kabir Singh aligns on PostgreSQL, Python, Redis; gap: Django, AWS, GCP. Experience fit is 3 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "PostgreSQL",
+        "Python",
+        "Redis"
+      ],
+      "missing_skills": [
+        "Django",
+        "AWS",
+        "GCP"
+      ]
+    },
+    "c056": {
+      "candidate_id": "c056",
+      "match_score": 60,
+      "reasoning": "Fast fit estimate: Daniel Okonkwo aligns on Python, AWS, Kafka; gap: PostgreSQL, Django, Redis. Experience fit is 5 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "PostgreSQL",
+        "Django",
+        "Redis",
+        "GCP"
+      ]
+    },
+    "c157": {
+      "candidate_id": "c157",
+      "match_score": 60,
+      "reasoning": "Fast fit estimate: Sneha Reddy aligns on Python, AWS, Kafka; gap: PostgreSQL, Django, Redis. Experience fit is 4 yrs vs 5-8, with location fit at Bengaluru, India hybrid.",
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "Kafka"
+      ],
+      "missing_skills": [
+        "PostgreSQL",
+        "Django",
+        "Redis",
+        "GCP"
+      ]
+    }
+  },
+  "interest_details": {
+    "c001": {
+      "candidate_id": "c001",
+      "interest_score": 68,
+      "signals": [
+        "Profile status: passive",
+        "Match estimate: 93/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Open but cautious; needs a concise follow-up on role scope and flexibility.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Aarav, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+          }
+        ]
+      }
+    },
+    "c051": {
+      "candidate_id": "c051",
+      "interest_score": 65,
+      "signals": [
+        "Profile status: passive",
+        "Match estimate: 80/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Open but cautious; needs a concise follow-up on role scope and flexibility.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Aishwarya, I noticed your background in PostgreSQL, Python, Redis and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Python, Redis. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+          }
+        ]
+      }
+    },
+    "c151": {
+      "candidate_id": "c151",
+      "interest_score": 65,
+      "signals": [
+        "Profile status: passive",
+        "Match estimate: 80/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Open but cautious; needs a concise follow-up on role scope and flexibility.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Aarav, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+          }
+        ]
+      }
+    },
+    "c101": {
+      "candidate_id": "c101",
+      "interest_score": 63,
+      "signals": [
+        "Profile status: passive",
+        "Match estimate: 73/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Open but cautious; needs a concise follow-up on role scope and flexibility.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Aarav, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+          }
+        ]
+      }
+    },
+    "c047": {
+      "candidate_id": "c047",
+      "interest_score": 56,
+      "signals": [
+        "Profile status: passive",
+        "Match estimate: 70/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Open but cautious; needs a concise follow-up on role scope and flexibility.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Jasmine, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+          }
+        ]
+      }
+    },
+    "c008": {
+      "candidate_id": "c008",
+      "interest_score": 75,
+      "signals": [
+        "Profile status: actively looking",
+        "Match estimate: 68/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Likely to advance if the recruiter confirms scope, process, and compensation.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Chiamaka, I noticed your background in Python, AWS, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks for reaching out. This sounds relevant to what I am exploring, especially the Python, AWS, Kafka angle; I would like to understand the scope, team setup, and compensation."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across Python, AWS, Kafka. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I am open to a screening call this week if the role has meaningful ownership and the interview process is reasonably tight."
+          }
+        ]
+      }
+    },
+    "c043": {
+      "candidate_id": "c043",
+      "interest_score": 55,
+      "signals": [
+        "Profile status: passive",
+        "Match estimate: 68/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Open but cautious; needs a concise follow-up on role scope and flexibility.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Benjamin, I noticed your background in PostgreSQL, Redis, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks, I am not actively looking, but the Backend Engineer scope does sound close to my work. My main questions would be timing, location flexibility, and how much ownership the role has."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Redis, Kafka. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I would be open to a short exploratory call if the team can share more detail on scope, growth path, and flexibility."
+          }
+        ]
+      }
+    },
+    "c093": {
+      "candidate_id": "c093",
+      "interest_score": 81,
+      "signals": [
+        "Profile status: actively looking",
+        "Match estimate: 68/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Likely to advance if the recruiter confirms scope, process, and compensation.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Sneha, I noticed your background in PostgreSQL, Django, Python and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks for reaching out. This sounds relevant to what I am exploring, especially the PostgreSQL, Django, Python angle; I would like to understand the scope, team setup, and compensation."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Django, Python. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I am open to a screening call this week if the role has meaningful ownership and the interview process is reasonably tight."
+          }
+        ]
+      }
+    },
+    "c148": {
+      "candidate_id": "c148",
+      "interest_score": 75,
+      "signals": [
+        "Profile status: actively looking",
+        "Match estimate: 68/100",
+        "Candidate leaves the door open for a screening conversation"
+      ],
+      "summary": "Likely to advance if the recruiter confirms scope, process, and compensation.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Tom, I noticed your background in PostgreSQL, AWS, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks for reaching out. This sounds relevant to what I am exploring, especially the PostgreSQL, AWS, Kafka angle; I would like to understand the scope, team setup, and compensation."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, AWS, Kafka. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "I am open to a screening call this week if the role has meaningful ownership and the interview process is reasonably tight."
+          }
+        ]
+      }
+    },
+    "c014": {
+      "candidate_id": "c014",
+      "interest_score": 21,
+      "signals": [
+        "Profile status: not looking",
+        "Match estimate: 67/100",
+        "Candidate indicates they are settled and unlikely to move now"
+      ],
+      "summary": "Low near-term interest despite a possible skill match.",
+      "conversation": {
+        "turns": [
+          {
+            "speaker": "recruiter",
+            "text": "Hi Tom, I noticed your background in PostgreSQL, Redis, Kafka and thought it mapped well to a Backend Engineer role we are hiring for. The team needs someone who can contribute quickly and still shape the technical direction."
+          },
+          {
+            "speaker": "candidate",
+            "text": "Thanks for thinking of me. I am fairly settled right now, so I would only consider something with unusually strong scope, flexibility, and compensation."
+          },
+          {
+            "speaker": "recruiter",
+            "text": "That makes sense. The role is based in Bengaluru, India hybrid and is strongest for someone with 5-8 years who can own delivery across PostgreSQL, Redis, Kafka. I can share the team charter and compensation range before any formal interview."
+          },
+          {
+            "speaker": "candidate",
+            "text": "For now I will pass, but the role is worth keeping on my radar if the scope changes or the team needs a later conversation."
+          }
+        ]
+      }
+    }
+  },
+  "weights": {
+    "match": 0.6,
+    "interest": 0.4
+  }
+}
