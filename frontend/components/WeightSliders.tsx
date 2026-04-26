@@ -39,7 +39,8 @@ export function WeightSliders({ weights, onChange }: Props) {
         />
       </div>
       <p className="text-xs text-slate-500">
-        Drag to re-rank live without re-running the pipeline.
+        Drag to re-rank live without re-running the pipeline.<br />
+        Final = {Math.round(safeMatch * 100)}% × Match + {Math.round(safeInterest * 100)}% × Interest
       </p>
     </Card>
   );

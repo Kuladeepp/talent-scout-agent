@@ -27,17 +27,27 @@ export default function Home() {
   const ranked = useMemo(() => (resp ? rerank(resp, weights) : []), [resp, weights]);
 
   const handleScout = async (input: { jd_text?: string; jd_url?: string }) => {
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+    if (!backendUrl) {
+      toast.error("Frontend missing NEXT_PUBLIC_BACKEND_URL — check Vercel env vars");
+      return;
+    }
     setLoading(true);
     try {
       // Call backend directly (Vercel free plan has 10s timeout on route handlers,
       // but the pipeline can take 60-120s on first call. CORS is open on the backend.)
-      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
       const r = await fetch(`${backendUrl}/scout`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ ...input, weights }),
       });
-      if (!r.ok) throw new Error(await r.text());
+      if (!r.ok) {
+        throw new Error(`Backend returned ${r.status} ${r.statusText}`);
+      }
+      const contentType = r.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        throw new Error("Backend did not return JSON");
+      }
       const data: ScoutResponse = await r.json();
       setResp(data);
       toast.success(`Found ${data.ranked.length} candidates`);
@@ -53,13 +63,18 @@ export default function Home() {
   const interest = openCid && resp ? resp.interest_details[openCid] ?? null : null;
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8 space-y-6">
-      <header>
-        <h1 className="text-2xl font-bold">Talent Scout Agent</h1>
-        <p className="text-sm text-slate-600">
-          Paste a JD. Get a ranked shortlist with match scores and simulated outreach interest.
-        </p>
+    <div className="bg-gradient-to-b from-slate-50 to-slate-100 min-h-screen">
+      <header className="border-b bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-5 flex items-center gap-3">
+          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white font-bold">TS</div>
+          <div>
+            <h1 className="text-xl font-semibold tracking-tight">Talent Scout Agent</h1>
+            <p className="text-xs text-slate-500">JD → matched candidates → simulated outreach → ranked shortlist</p>
+          </div>
+        </div>
       </header>
+
+      <main className="mx-auto max-w-6xl px-6 py-8 space-y-6">
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2">
@@ -89,6 +104,7 @@ export default function Home() {
         match={match}
         interest={interest}
       />
-    </main>
+      </main>
+    </div>
   );
 }

@@ -27,7 +27,7 @@ export function ResultsTable({ rows, onRowClick }: Props) {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead>#</TableHead>
+            <TableHead className="w-12">#</TableHead>
             <TableHead>Candidate</TableHead>
             <TableHead>Title</TableHead>
             <TableHead className="w-20 text-right">Match</TableHead>
@@ -40,15 +40,19 @@ export function ResultsTable({ rows, onRowClick }: Props) {
           {rows.map((r, i) => (
             <TableRow
               key={r.candidate_id}
-              className="cursor-pointer hover:bg-slate-50"
+              className="cursor-pointer hover:bg-indigo-50"
               onClick={() => onRowClick(r.candidate_id)}
             >
-              <TableCell className="text-slate-500">{i + 1}</TableCell>
+              <TableCell>
+                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-slate-900 text-white text-xs font-bold">
+                  {i + 1}
+                </span>
+              </TableCell>
               <TableCell className="font-medium">{r.name}</TableCell>
               <TableCell className="text-slate-600">{r.title}</TableCell>
               <TableCell className="text-right">{scoreBadge(r.match_score)}</TableCell>
               <TableCell className="text-right">{scoreBadge(r.interest_score)}</TableCell>
-              <TableCell className="text-right font-semibold">{r.final_score.toFixed(0)}</TableCell>
+              <TableCell className="text-right font-semibold">{scoreBadge(Math.round(r.final_score))}</TableCell>
               <TableCell className="text-sm text-slate-600 max-w-md truncate">
                 {r.match_reasoning}
               </TableCell>

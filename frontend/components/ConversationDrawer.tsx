@@ -74,20 +74,24 @@ export function ConversationDrawer(p: Props) {
         {p.interest && p.interest.conversation.turns.length > 0 && (
           <section className="mt-6">
             <h3 className="text-sm font-semibold mb-2">Outreach conversation</h3>
-            <div className="space-y-3">
+            <div className="space-y-4">
               {p.interest.conversation.turns.map((t, idx) => (
                 <div
                   key={idx}
-                  className={`rounded-lg p-3 text-sm ${
-                    t.speaker === "recruiter"
-                      ? "bg-blue-50 border border-blue-100"
-                      : "bg-slate-100 border border-slate-200"
-                  }`}
+                  className={`flex ${t.speaker === "recruiter" ? "justify-start" : "justify-end"}`}
                 >
-                  <div className="text-xs font-medium uppercase text-slate-500 mb-1">
-                    {t.speaker}
+                  <div
+                    className={`rounded-2xl px-4 py-3 text-sm max-w-[85%] ${
+                      t.speaker === "recruiter"
+                        ? "bg-indigo-100 text-indigo-900 rounded-bl-sm"
+                        : "bg-slate-100 text-slate-800 rounded-br-sm"
+                    }`}
+                  >
+                    <div className="text-[10px] font-bold uppercase tracking-wider opacity-60 mb-1">
+                      {t.speaker}
+                    </div>
+                    {t.text}
                   </div>
-                  {t.text}
                 </div>
               ))}
             </div>

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { FileText, Link as LinkIcon, Loader2 } from "lucide-react";
 
 type Props = {
   onSubmit: (input: { jd_text?: string; jd_url?: string }) => void;
@@ -30,6 +31,7 @@ export function JdInput({ onSubmit, loading }: Props) {
           onClick={() => setMode("text")}
           size="sm"
         >
+          <FileText className="w-4 h-4 mr-2" />
           Paste JD text
         </Button>
         <Button
@@ -38,6 +40,7 @@ export function JdInput({ onSubmit, loading }: Props) {
           onClick={() => setMode("url")}
           size="sm"
         >
+          <LinkIcon className="w-4 h-4 mr-2" />
           From URL
         </Button>
       </div>
@@ -47,7 +50,8 @@ export function JdInput({ onSubmit, loading }: Props) {
           placeholder="Paste the full job description here..."
           value={text}
           onChange={(e) => setText(e.target.value)}
-          rows={8}
+          rows={10}
+          className="font-mono text-sm"
         />
       ) : (
         <Input
@@ -57,9 +61,24 @@ export function JdInput({ onSubmit, loading }: Props) {
         />
       )}
 
-      <Button onClick={submit} disabled={loading} className="w-full">
-        {loading ? "Scouting candidates..." : "Find & engage candidates"}
-      </Button>
+      {loading ? (
+        <Button disabled className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-medium disabled:opacity-50">
+          <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+          Running pipeline... ~30s on warm backend
+        </Button>
+      ) : (
+        <Button onClick={submit} className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-medium hover:opacity-90">
+          Find & engage candidates
+        </Button>
+      )}
+
+      {loading && (
+        <div className="space-y-2 mt-4">
+          {[0, 1, 2].map((i) => (
+            <div key={i} className="h-12 bg-white rounded-lg animate-pulse border border-slate-100 shadow-sm" />
+          ))}
+        </div>
+      )}
     </Card>
   );
 }
